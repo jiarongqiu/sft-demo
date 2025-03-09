@@ -1,0 +1,902 @@
+[
+    {
+        "instruction": "Explain why computers are needed in the workplace.",
+        "input": "",
+        "output": "Computers are essential in the workplace because they can reduce manual labor, increase accuracy and speed up tasks. They allow employees to process data quickly and efficiently and make decisions based on accurate information. Computers also allow for easier communication between co-workers, as well as with clients, and provide access to a vast array of resources."
+    },
+    {
+        "instruction": "What does the phrase \"second nature\" mean?",
+        "input": "",
+        "output": "Phrase meaning: Second nature refers to something you do without thinking, so much so that it seems like a natural, ingrained part of your identity. It is also used to describe an effortless or intuitive understanding of a given subject."
+    },
+    {
+        "instruction": "Analyze the provided text and categorize it as  factual or opinion.",
+        "input": "The UK has one of the highest standards of living in the world.",
+        "output": "Factual"
+    },
+    {
+        "instruction": "Rewrite the following sentence to include a comma:\n\"The teacher wrote an essay about the dog",
+        "input": "",
+        "output": "The teacher wrote an essay, about the dog."
+    },
+    {
+        "instruction": "Generate 10 random numbers between 0 and 10.",
+        "input": "",
+        "output": "4, 6, 3, 10, 0, 9, 2, 5, 7, 1"
+    },
+    {
+        "instruction": "Calculate the area of a triangle with sides of length 5, 7, and 10",
+        "input": "",
+        "output": "14.7 cm2"
+    },
+    {
+        "instruction": "Explain in detail how the given process works.",
+        "input": "Genetic Engineering",
+        "output": "Genetic engineering is the process of manipulating an organism’s DNA to change its traits. This can include altering existing DNA or introducing new DNA from another species. The process begins with identifying the desired DNA of a species and then isolating the genes that code for it. These genes are then inserted into the organism’s DNA, either through a virus or by directly injecting the genes. After this, the organism replicates the new DNA and passes it on to its offspring. This new trait can then be bred and maintained by selecting the organisms with the desired trait."
+    },
+    {
+        "instruction": "Generate a list of search terms related to the news article.",
+        "input": "Tech giants Microsoft and Google have partnered to create a new digital assistant.",
+        "output": "Microsoft, Google, Digital Assistant, AI, Artificial Intelligence, Cloud Computing, Tech Partnership, Research and Development, Smart Devices, Virtual Assistance."
+    },
+    {
+        "instruction": "Classify this text as Fiction or Non-fiction.",
+        "input": "The universe is estimated to be around 13.8 billion years old.",
+        "output": "Non-fiction."
+    },
+    {
+        "instruction": "Create a password that is secure and is easy to remember.",
+        "input": "",
+        "output": "Password123%Roses!"
+    },
+    {
+        "instruction": "Name two features that you should look for in a good laptop.",
+        "input": "",
+        "output": "Display quality and battery life."
+    },
+    {
+        "instruction": "What is a feasible solution for cost reduction?",
+        "input": "",
+        "output": "A feasible solution for cost reduction could involve exploring alternative suppliers and negotiating better prices, outsourcing non-core functions, and introducing alternative payment options. Additionally, streamlining processes, reducing waste, and improving employee productivity can help reduce costs. Automating processes wherever possible could also be beneficial. Finally, investments in digital transformation and leveraging analytics can also help reduce costs."
+    },
+    {
+        "instruction": "Generate a list of steps to carry out a community outreach project",
+        "input": "",
+        "output": "Here are the steps to carry out a community outreach project: \n\n1. Identify the purpose of the outreach project and the communities you want to target.\n2. Brainstorm strategies for engaging those communities.\n3. Develop a communication plan that outlines the methods of communication, timeframes, and materials to be distributed.\n4. Host a kick-off event to introduce the project and explain the purpose and goals.\n5. Create a schedule of outreach events and activities.\n6. Distribute materials to increase interest and understanding.\n7. Monitor the progress of the project and adjust the plan as needed.\n8. Follow up with the attending members to get feedback and answer questions.\n9. Engage the community and collect data to assess the project’s efficacy.\n10. Evaluate the results and make any necessary adjustments to improve the project.\n11. Compile a final report outlining the results and achievements of the project."
+    },
+    {
+        "instruction": "Create an exercise routine",
+        "input": "",
+        "output": "A good exercise routine should incorporate aerobic exercise, strength training, and flexibility exercises. Examples of aerobic activities include walking, jogging, biking, or swimming. Strength training exercises include lifting weights, using resistance bands and bodyweight exercises. Flexibility exercises include stretching and yoga. A well structured routine should also have rest and recovery days."
+    },
+    {
+        "instruction": "Generate an email reply to the sender.",
+        "input": "Dear Mr Smith,\n\nThank you for your interest in our company and we hope to work with you soon.\n\nBest regards,\n\nThe XYZ Team",
+        "output": "Dear Mr Smith, \n\nThank you for taking the time to reach out, we appreciate your interest in our company. We look forward to working together soon and we will be in touch with more information.\n\nBest regards,\n\nThe XYZ Team"
+    },
+    {
+        "instruction": "Give me a list of the best Olympic athletes from the last five years.",
+        "input": "",
+        "output": "- Simone Biles (Gymnastics)\n- Usain Bolt (Track and Field)\n- Chloe Kim (Snowboarding)\n- Katie Ledecky (Swimming)\n- Liu Shiwen (Table Tennis)\n- Caeleb Dressel (Swimming)\n- Sky Brown (Skateboarding)\n- Eliud Kipchoge (Athletics)\n- Brittney Griner (Basketball)\n- Ryan Crouser (Shot Put)\n- Bradley Wiggins (Cycling)\n- David Rudisha (Athletics)\n- Mo Farah (Distance Running)\n- Wayde van Niekerk (Athletics)\n- Ashton Eaton (Decathlon)\n- Sarah Robles (Weightlifting)\n- Dai Greene (400M Hurdles)\n- Christian Taylor (Triple Jump)\n- David Storl (Shot Put)"
+    },
+    {
+        "instruction": "Reword the following sentence to be more precise:\n\nOlive oil is a healthy food to eat.",
+        "input": "",
+        "output": "Extra-virgin olive oil is a healthful dietary fat."
+    },
+    {
+        "instruction": "Describe the different types of physics experiments.",
+        "input": "",
+        "output": "There are several different types of physics experiments. These include experiments related to mechanics such as pendulums, oscillations and dynamics; experiments involving electricity such as circuit building and testing; experiments that involve light and magnetism; and experiments related to nuclear physics and relativity."
+    },
+    {
+        "instruction": "Select the best option for a headline that expresses the purpose of the research paper \"How Our Social Identity Impacts Our Value System\".",
+        "input": "",
+        "output": "How Our Social Identity Shapes the Values We Hold"
+    },
+    {
+        "instruction": "Identify a simile in this sentence",
+        "input": "His mind is like a computer",
+        "output": "The simile in this sentence is \"His mind is like a computer\"."
+    },
+    {
+        "instruction": "What is the significance of the number five in The Fibonacci Sequence?",
+        "input": "",
+        "output": "The Fibonacci Sequence is a series of numbers in which each number is the sum of the two numbers preceding it. The number five is significant because it is the first number in this sequence that results in an even total when added to the number before it (3 + 5 = 8). This is the beginning of the pattern known as the Fibonacci numbers."
+    },
+    {
+        "instruction": "Detect if the following Facebook post is considered as a cyberbullying.",
+        "input": "You're so worthless, nobody likes you",
+        "output": "Yes, this is considered as cyberbullying."
+    },
+    {
+        "instruction": "Look up the biography of Malcolm X on Wikipedia.",
+        "input": "",
+        "output": "Malcolm X (May 19, 1925 – February 21, 1965), born Malcolm Little and later also known as El-Hajj Malik El-Shabazz, was an African-American Muslim minister and a human rights activist. Some of his ideals and teachings have since inspired many movements across the world. He is mostly known for his controversial views on black nationalism and civil rights, which were often applicable to other racial and socio-economic issues."
+    },
+    {
+        "instruction": "Compute the value of the function y=x^2-2x+1 when x=2",
+        "input": "",
+        "output": "The value of y when x=2 is 1."
+    },
+    {
+        "instruction": "Explain why science fiction is a genre of literature that is relevant today.",
+        "input": "",
+        "output": "Science fiction is a genre of literature that is relevant today because it often explores contemporary issues, such as environmental destruction and overpopulation, in imaginative and speculative ways. Through metaphors, science fiction allows us to examine political, social, and ethical questions by presenting them in story form, making them easier to think about and discuss. By speculating on the potential outcomes of current problems, science fiction allows us to explore possible solutions and plan for the future. It is an important genre of literature that shows us both the dangers of our present and helps us to imagine and create a better future."
+    },
+    {
+        "instruction": "Categorize the following words into fruits, vegetables or grains",
+        "input": "Apple, Corn, Carrot",
+        "output": "Fruits: Apple \nVegetables: Carrot \nGrains: Corn"
+    },
+    {
+        "instruction": "How many external pairs of eyelids do frogs have?",
+        "input": "",
+        "output": "Frogs do not have external eyelids; instead they have a transparent layer of skin called the nictitating membrane which covers the eye and protects it while still allowing the frog to see. This membrane is located at the corner of the eye and is moved by tiny muscles. Therefore, frogs have no external pairs of eyelids."
+    },
+    {
+        "instruction": "Provide a two sentence description of a character from the European fairy tales.",
+        "input": "",
+        "output": "The character is an old woman with a kindly disposition who often helps the protagonists in fairy tales. She is usually depicted as a wise, wise woman with magical powers."
+    },
+    {
+        "instruction": "Explain the concept of sustainable development in your own words.",
+        "input": "",
+        "output": "Sustainable development is a concept which advocates for the development of economies and societies in a way that meets present needs and needs of the future generations without compromising the natural resources and environment. It promotes the idea of using resources in a way that causes less damage to the environment and also encourages conserving natural resources through proper management, efficient use of resources, and renewable resources."
+    },
+    {
+        "instruction": "Categorize this text as formal or informal",
+        "input": "Gonna go out tonight.",
+        "output": "Informal"
+    },
+    {
+        "instruction": "Given this information, classify the sentiment of the sentence",
+        "input": "The restaurant was filthy and the service was terrible.",
+        "output": "Negative sentiment"
+    },
+    {
+        "instruction": "List four methods of data collection.",
+        "input": "",
+        "output": "- Surveys/Questionnaires\n- Interviews/Focus Groups\n- Observations/Experiments\n- Secondary Data/Documentation"
+    },
+    {
+        "instruction": "Assign a score out of 5 to the following book review.",
+        "input": "I really enjoyed this book. It was an engaging read and had an interesting plot.",
+        "output": "The book review scores 4 out of 5. The reviewer enjoyed the book and found the plot engaging and interesting."
+    },
+    {
+        "instruction": "Write a CSS code to provide an animation on hover.",
+        "input": "",
+        "output": "The CSS code to provide an animation on hover is:\n\n.element {\n  transition: all 0.5s ease-in-out;\n}\n\n.element:hover {\n  transform: scale3d(1.1, 1.1, 1.1);\n  animation-name: animation-on-hover;\n  animation-duration: 0.3s;\n}\n\n@keyframes animation-on-hover {\n  0% {\n    border-radius: 0px;\n    background-color: blue;\n  }\n  100% {\n    border-radius: 20px;\n    background-color: yellow;\n  }\n}"
+    },
+    {
+        "instruction": "Rewrite the following sentence to reflect a casual writing style:\n\"I implore you to read this important document.\"",
+        "input": "",
+        "output": "I really urge you to take a look at this important document."
+    },
+    {
+        "instruction": "Create a chart showing the data of internet users by country.",
+        "input": "Country: China, India, US, Brazil, Spain\nInternet Users (in millions): 854.8, 504.0, 302.5, 142.5, 45.5",
+        "output": "Country | Internet Users (in millions) \n------- | -------------------------- \nChina | 854.8 \nIndia | 504.0 \nUS | 302.5 \nBrazil | 142.5 \nSpain | 45.5"
+    },
+    {
+        "instruction": "Generate 10 rhyming words for the word \"love\".",
+        "input": "",
+        "output": "dove, above, glove, thereof, shove, thereof, thereof, thereof, thereof, thereof."
+    },
+    {
+        "instruction": "Provide an analysis of the impact of carbohydrates on human health.",
+        "input": "",
+        "output": "Carbohydrates are an important part of a balanced human diet and have been linked to a variety of health benefits when consumed in appropriate amounts. Carbohydrates are the main source of energy for the body and are important for the brain, organs, and muscles to function properly. Research has shown that diets high in carbohydrates can help to reduce the risk of chronic diseases such as heart disease, stroke, and some cancers. Carbohydrates also have a role in helping to control blood sugar levels, which is important for maintaining a healthy weight and preventing or managing diabetes. Additionally, they provide dietary fiber which helps to improve digestion and promote a healthy gut. The amount and type of carbohydrates consumed is essential, as consuming too much can lead to weight gain and other health problems. Choosing complex carbohydrates, such as fruits and vegetables, whole grains, and legumes, instead of simple carbohydrates that are found in processed and refined foods, can help to provide essential vitamins, minerals and other nutrients. Ultimately, carbohydrates are a necessary part of a healthy diet and should be consumed in moderation and in a balanced way."
+    },
+    {
+        "instruction": "Convert 25 km/h to miles per hour",
+        "input": "",
+        "output": "25 km/h is equivalent to 15.534 mph."
+    },
+    {
+        "instruction": "Construct an explanation of the definition of the word 'bounty'.",
+        "input": "",
+        "output": "A bounty is a reward offered for a particular task or achievement. It is usually given in the form of money or goods. It is typically offered to entice people to perform a certain task or to encourage people to achieve certain goals."
+    },
+    {
+        "instruction": "Using the provided information, build a SQL query to extract the top 10 highest valued orders.",
+        "input": "Table Name: Orders\nColumns: ID (primary key), value, customer_id, date",
+        "output": "SELECT TOP 10 *\nFROM Orders\nORDER BY value DESC;"
+    },
+    {
+        "instruction": "Generate a list of adjectives for describing an elephant.",
+        "input": "",
+        "output": "Large, gray, majestic, curious, social, gentle, resilient, massive, intelligent, peaceful, gentle giants, hearty, playful, graceful, loyal, affectionate, long-lived."
+    },
+    {
+        "instruction": "Detect irony in a sentence.",
+        "input": "My parents said I could go to the party, but I already bought the tickets.",
+        "output": "The sentence contains irony because it implies that the parents did not believe that their child would be able to go to the party, even though they said they could."
+    },
+    {
+        "instruction": "Describe the best way to conduct an interview.",
+        "input": "",
+        "output": "The best way to conduct an interview is to create an environment that is comfortable and welcoming for the candidate. A successful interview should be an engaging conversation, rather than a one-sided interrogation. Questions should be tailored specifically to the role and you should give the candidate enough time to answer. Additionally, it's important to listen to the candidate's answers and provide constructive feedback when needed."
+    },
+    {
+        "instruction": "Express the given note in different words.",
+        "input": "Note: Children should be discouraged from watching too much television.",
+        "output": "Parents should discourage their children from spending too much time in front of the television."
+    },
+    {
+        "instruction": "Describe the moon's phases in one sentence.",
+        "input": "",
+        "output": "The moon's phases involve a cycle of illumination, gradually waxing and waning throughout a lunar month."
+    },
+    {
+        "instruction": "Describe the best customer experience you have had with a company.",
+        "input": "",
+        "output": "I recently had the best customer experience with a company that provided excellent customer service. They responded quickly to my questions and provided helpful answers. They kept their promise of meeting delivery deadlines, even though I placed an order at the last minute. When I needed additional help after the purchase, they provided additional support and really went above and beyond to make sure I was a satisfied customer."
+    },
+    {
+        "instruction": "What challenges do businesses face when running online marketing campaigns?",
+        "input": "",
+        "output": "Businesses often face challenges when it comes to online marketing campaigns, such as mastering the various social media platforms, defining their target audience, creating engaging content, accurately tracking metrics, and measuring the success of campaigns. Additionally, businesses need to ensure that their campaigns comply with relevant industry regulations to avoid penalties."
+    },
+    {
+        "instruction": "Estimate the amount of liquid in liters contained in a pool that is 9 feet long and 5 feet wide.",
+        "input": "",
+        "output": "The pool contains approximately 81.84 liters of liquid."
+    },
+    {
+        "instruction": "What is the most important step a government must take to combat climate change?",
+        "input": "",
+        "output": "The most important step a government must take to combat climate change is to reduce emissions by investing in renewable energy sources and implementing policies to incentivize alternative energy sources. Additionally, governments must also provide funding for research into new sustainable methods of generating energy and develop regulations to ensure businesses and households reduce their carbon footprint."
+    },
+    {
+        "instruction": "Edit the following sentence to make it grammatically correct: \"It's supper time an I am hungry\".",
+        "input": "",
+        "output": "It's supper time and I am hungry."
+    },
+    {
+        "instruction": "Write a few sentences comparing the old smartphones to the new ones.",
+        "input": "",
+        "output": "Old smartphones had significantly less processing power and storage compared to modern phones. They also used to be much bigger in size, and the charging ports were less universal. In contrast, modern smartphones are much more capable with faster processing power and larger storage. They also tend to be smaller in size and have universal charging ports. In addition, modern phones have more advanced features such as access to streaming services and pay-as-you-go plans. They also have much better camera quality, so users can take photos and videos with greater clarity and detail."
+    },
+    {
+        "instruction": "When given a list of numbers, you need to find the smallest number.",
+        "input": "8, 3, 10, 7",
+        "output": "3"
+    },
+    {
+        "instruction": "Describe the ingredients and cooking steps needed to make peanut butter cookies",
+        "input": "",
+        "output": "To make peanut butter cookies, you will need the following ingredients: 1/2 cup of butter, 1/2 cup of brown sugar, 1/2 cup of white sugar, 1/2 cup of peanut butter, 1 egg, 1 teaspoon of vanilla extract, 1 and 1/4 cups of all-purpose flour, 1 teaspoon of baking soda, and 1/2 teaspoon of salt.\n\nTo make the cookies, start by preheating the oven to 350 degrees Fahrenheit. Cream together the butter, brown sugar, and white sugar until the mixture is light and fluffy. Next, stir in the peanut butter, egg, and vanilla extract. In a separate bowl, sift together the flour, baking soda, and salt. Gradually combine the dry ingredients with the wet ingredients until a smooth dough forms. Use a spoon to scoop the cookie dough and roll it into a ball. Place the cookie dough balls onto an ungreased baking tray and press down lightly with a fork to flatten them. Bake the cookies for 10-15 minutes, or until golden brown. Allow the cookies to cool before serving. Enjoy!"
+    },
+    {
+        "instruction": "Write a sentence with the same meaning as today is nice.",
+        "input": "",
+        "output": "The day is pleasant."
+    },
+    {
+        "instruction": "Write a persuasive essay about why people should read books.",
+        "input": "",
+        "output": "Reading books is an invaluable activity that offers numerous benefits to all readers, regardless of age or background. Reading books can increase knowledge, expand the imagination, foster empathy and understanding, stimulate the mind, improve focus and concentration, and reduce stress. Additionally, reading is an activity that can be done anywhere, anytime. It is an activity that requires no equipment other than a book, making it a convenient and enjoyable form of entertainment that also provides valuable educational benefits. \n\nReading books can open up new worlds, introducing readers to new cultures, beliefs, and ways of thinking. Reading books can also foster empathy and understanding, enabling readers to gain insight into the lives and perspectives of others, and even help to bridge gaps between people of different backgrounds and beliefs. Additionally, books can stimulate readers’ imaginations, allowing them to think outside the box and explore new and creative ideas. \n\nFinally, the act of reading can have a calming and meditative effect, helping readers to relax and refocus. Reading can also help to improve focus and concentration, since it requires readers to pay attention and to engage with the material. An added bonus is that all of these benefits can be experienced free of charge—all one needs to do is open a book and start reading!\n\nFor all of these reasons, it is clear that reading books is an activity that should be embraced by all. Not only does it offer countless educational and entertainment benefits, but it is also an activity that can be enjoyed anywhere, anytime. So the next time you’re looking for something to do, why not open a book and enter a new world?"
+    },
+    {
+        "instruction": "Construct a quiz question designed to test knowledge of the US Constitution",
+        "input": "",
+        "output": "Q: Which amendment to the US Constitution prohibits any laws which abridge the freedom of speech?\nA: The First Amendment."
+    },
+    {
+        "instruction": "using the following text, classify the sentiment from -5 to 5",
+        "input": "The food was awful",
+        "output": "Negative sentiment scored -5/5."
+    },
+    {
+        "instruction": "Insert the appropriate transition words to make this sentence smoother:\n\"We went to the park but it was too crowded \"",
+        "input": "",
+        "output": "We went to the park, but unfortunately it was too crowded."
+    },
+    {
+        "instruction": "Name a popular game that requires two players.",
+        "input": "",
+        "output": "Chess is a popular two player game. Other popular two player games include Checkers, Go, Backgammon, Dominoes, and Battleship."
+    },
+    {
+        "instruction": "Personalize the following birthday message for a person named Camila.",
+        "input": "",
+        "output": "Happy birthday, Camila! Wishing you a day of joy and happiness and a year full of successes and prosperity. Have an amazing day!"
+    },
+    {
+        "instruction": "Given input about a scientific experiment, suggest an appropriate conclusion.",
+        "input": "In a science laboratory, a group of students heated an iron bar for five minutes and measured its temperature.",
+        "output": "The conclusion is that heating an iron bar for five minutes increases its temperature."
+    },
+    {
+        "instruction": "Write a brief biography of Marie Curie",
+        "input": "",
+        "output": "Marie Curie was a Polish-born French physicist and chemist who is known for her pioneering research in radioactivity. She discovered two new elements, radium and polonium, and became the first Nobel Prize winner in physics and the first female professor at the University of Paris. In addition to her scientific accomplishments, she founded the Curie Institute, a pioneering research center in radiation treatment, which she ran until her death in 1934. She is widely recognized as one of the most influential scientists of all time."
+    },
+    {
+        "instruction": "Create a cryptographic code using a substitution cipher.",
+        "input": "",
+        "output": "A substitution cipher is a cryptographic code which replaces each letter in the plaintext with another letter. For example, a substitution cipher might replace each letter with the letter three positions after it in the alphabet. So, the letter \"A\" would be replaced with the letter \"D\", the letter \"B\" would be replaced with the letter \"E\", and so on."
+    },
+    {
+        "instruction": "Describe an extracurricular activity that you have enjoyed",
+        "input": "",
+        "output": "One extracurricular activity that I have enjoyed is painting. I have enjoyed spending time in the studio, experimenting with different materials and techniques to create works of art. I love being creative and seeing the results of my efforts. Painting is also a great way to relax and express emotions that I cannot put into words."
+    },
+    {
+        "instruction": "Generate a headline for a story about a visit to a zoo.",
+        "input": "",
+        "output": "\"A Wild Adventure: A Day at the Zoo\""
+    },
+    {
+        "instruction": "Write a C program to calculate the sum of all elements in a given array.",
+        "input": "array = {2, 4, 3, 7, 5}",
+        "output": "#include<stdio.h>\n\nint main()\n{\n\tint array[] = {2, 4, 3, 7, 5};\n\tint sum = 0, i;\n\t\n\tfor (i = 0; i < 5; i++) {\n\t\tsum += array[i];\n\t}\n\t\n\tprintf(\"Sum of all elements in the array = %d\", sum);\n\t\n\treturn 0;\n}"
+    },
+    {
+        "instruction": "Classify these animals as vertebrates or invertebrates: elephant, jellyfish.",
+        "input": "",
+        "output": "Vertebrates: Elephant\nInvertebrates: Jellyfish"
+    },
+    {
+        "instruction": "Generate a data-driven analysis of the results of a survey.",
+        "input": "The survey asked 600 adults between the ages of 18 and 30 whether they use mobile phones to call, text, take pictures, browse the internet, etc. 59% reported that they use mobile phones to call, 21% reported that they use them to text, and 10% use them to take pictures.",
+        "output": "The survey data indicates that the majority of adults between the ages of 18 and 30 are primarily using mobile phones to call, with 59% of respondents indicating that they use their device to make a call. This indicates that traditional methods of communication such as making phone calls still remain popular among this demographic.\n\nTexting follows closely behind in usage, with 21% of adults 18-30 reported using their device to text, indicating that this form of communication is also popular but less so than making phone calls. Only 10% of adults 18-30 reported using mobile phones to take pictures, suggesting that this is not a primary use of the device.\n\nOverall, the survey results suggest that communication is still the primary use of mobile phones among adults between the ages of 18 and 30. While they do use their phones for other activities like taking pictures, it appears that calling and texting remain the two primary modes of communication."
+    },
+    {
+        "instruction": "Group the words and form two meaningful sentences.",
+        "input": "dog excited barked quickly",
+        "output": "The dog was excited and quickly barked."
+    },
+    {
+        "instruction": "Can you complete the analogy?",
+        "input": "Car is to drive as bike is to",
+        "output": "Ride."
+    },
+    {
+        "instruction": "Edit the text to improve grammar and spelling.",
+        "input": "My favortie hobby is birdwatching, I see many kinds birds when I go out in the birdforest.",
+        "output": "My favorite hobby is birdwatching. I often see many different kinds of birds when I go out in the bird forest."
+    },
+    {
+        "instruction": "What is the title of the epic poem composed by Homer",
+        "input": "No input",
+        "output": "The epic poem composed by Homer is called The Iliad."
+    },
+    {
+        "instruction": "Create a a punchline based on the given statement.",
+        "input": "Why did the scientist install a sundial in his backyard?",
+        "output": "So he could have a place to watch time fly!"
+    },
+    {
+        "instruction": "Explain the differences between a supervised and unsupervised task?",
+        "input": "",
+        "output": "The main difference between supervised and unsupervised tasks is the nature of the data. In a supervised task, the dataset used to train the model is labeled, meaning that it already contains labels or desired output attributes. This enables the model to make accurate predictions based on given inputs. In unsupervised tasks, on the other hand, the dataset does not contain labels or desired output attributes and the model must learn patterns from the data itself. Unsupervised tasks are typically used for clustering tasks, pattern recognition, and anomaly detection."
+    },
+    {
+        "instruction": "Generate a list of five strategies for controlling AI experiments",
+        "input": "",
+        "output": "1. Develop a clear set of objectives before commencing an AI experiment.\n2. Establish guidelines for data collection and use in AI experiments.\n3. Monitor data feed, parameters, and results of AI experiments in real-time.\n4. Establish safety protocols for AI experiments.\n5. Establish a plan to end AI experiments in the event of unexpected results."
+    },
+    {
+        "instruction": "Write the following sentence in present tense.",
+        "input": "I had been walking for an hour.",
+        "output": "I have been walking for an hour."
+    },
+    {
+        "instruction": "Use a common adage and spin it in a positive way.",
+        "input": "Don't cry over spilled milk.",
+        "output": "Every setback brings with it an opportunity to learn and grow - so don't cry over spilled milk, use it to better understand the situation and move forward."
+    },
+    {
+        "instruction": "List five things to consider when designing a website",
+        "input": "",
+        "output": "Five things to consider when designing a website include user interface design, search engine optimization, content strategy, responsive design, and security. Additionally, factors such as usability, accessibility, and brand consistency should also be taken into account."
+    },
+    {
+        "instruction": "Transform the input into a positively stated goal",
+        "input": "Reducing the achievement gap is important.",
+        "output": "It is essential to strive for educational equity for all students."
+    },
+    {
+        "instruction": "What do you need to do to create a Google Account?",
+        "input": "",
+        "output": "In order to create a Google Account, you need to provide your name, email address, and a password. You will also need to verify your email address and phone number, if applicable. Once you have provided all the required information, you can click on “Create Account” to finish setting up your Google Account."
+    },
+    {
+        "instruction": "Construct a response for the given tweet.",
+        "input": "Tweet: \"The world is getting crazier every day.\"",
+        "output": "It can be overwhelming at times, so it's important to take care of ourselves and find ways to stay grounded."
+    },
+    {
+        "instruction": "Come up with a set of criteria for code readability",
+        "input": "",
+        "output": "The criteria for code readability include: \n- Easily identifiable structure, such as indentation, clear variable and function names, and grouping related elements. \n- Consistent style across the code, including formatting and coding conventions. \n- Avoiding unnecessary complexity and the use of clever approaches. \n- Minimal usage of nesting, so the code does not become too complicated.\n- The code should be self-documenting by using meaningful variable and function names.\n- Proper documentation should be included to explain the purpose of the code and its components. \n- Comments should be included to explain particularly difficult or intricate parts of the code."
+    },
+    {
+        "instruction": "Name 4 European countries that touch the Atlantic Ocean",
+        "input": "",
+        "output": "The four European countries that touch the Atlantic Ocean are the United Kingdom, France, Spain, and Portugal."
+    },
+    {
+        "instruction": "Explain the cause and effect of a given event.",
+        "input": "The Industrial Revolution",
+        "output": "The Industrial Revolution was a period of major social and economic change that began in the late 18th century, marked by advances in technology, advances in manufacturing processes, and the development of new methods of producing goods. These advances led to a shift from agrarian economies to industrial ones, increased economic productivity, the increased use of machines, the factory system, improved transportation networks, increased urbanization, and population growth. The result of these changes was a massive increase in global wealth and, consequently, improved living standards."
+    },
+    {
+        "instruction": "Create a Geometric poem.",
+        "input": "",
+        "output": "Round and round, a perfect circle.\nSharp and straight, a triangle.\nAngular corners, a square.\nDiamonds glimmer, a rhombus.\nA pentagon, five-sided.\nHexagons, six-sided surprise.\nOutlined with grace, an octagon.\nAnd the stars shine, a decagon."
+    },
+    {
+        "instruction": "Replace the verb in this sentence with a more suitable verb",
+        "input": "She drove away in a hurry.",
+        "output": "She sped away in a hurry."
+    },
+    {
+        "instruction": "Add three adjectives to this sentence: \"He's a ____, _____, and _____ man\"",
+        "input": "",
+        "output": "He's a brave, compassionate, and determined man."
+    },
+    {
+        "instruction": "Design an algorithm that converts a temperature from Celsius to Fahrenheit.",
+        "input": "",
+        "output": "def celsius_to_fahrenheit(c):\n    f = c * (9/5) + 32\n    return round(f, 2)"
+    },
+    {
+        "instruction": "Rewrite this sentence in the future tense: \"I am going to the store\"",
+        "input": "",
+        "output": "I will be going to the store."
+    },
+    {
+        "instruction": "What are the four marketing techniques used to gain customer attention?",
+        "input": "",
+        "output": "The four marketing techniques used to gain customer attention are: creating compelling content, personalization, providing incentives, and utilizing influencers. Creating compelling content such as videos, eBooks, or blogs can help to draw potential customers in, while personalization can help to increase loyalty and trust. Providing incentives like discounts and rewards can lead to more purchases, while utilizing influencers can help to reach a larger audience and gain more attention."
+    },
+    {
+        "instruction": "Why is the periodic table important?",
+        "input": "",
+        "output": "The periodic table is important because it organizes elements into categories based on their chemical properties, such as electronegativity, atomic radius, and reactivity. It helps scientists to better understand and predict the behavior of different elements."
+    },
+    {
+        "instruction": "Given an input string, find the length of the longest palindrome within the string.",
+        "input": "\"racecar\"",
+        "output": "The longest palindrome within the string is \"racecar\", which has a length of 7."
+    },
+    {
+        "instruction": "Create a haiku using the following keywords: blue sky, bridge, sunset",
+        "input": "",
+        "output": "Blue sky spans wide,\nBridges of mixed hues sunset,\nA picture perfect sight."
+    },
+    {
+        "instruction": "Create a funny joke with a pun.",
+        "input": "",
+        "output": "Why did the spaghetti go to the dentist? Because it needed some al dente!"
+    },
+    {
+        "instruction": "Name five animals that have feathers.",
+        "input": "",
+        "output": "Chicken, duck, eagle, peacock, hummingbird."
+    },
+    {
+        "instruction": "Find the surface area of the triangular prism.",
+        "input": "Base: 10 cm \nHeight: 7 cm \nLength: 15 cm",
+        "output": "The surface area of the triangular prism is 425 cm²."
+    },
+    {
+        "instruction": "Describe a few features of a search engine.",
+        "input": "",
+        "output": "Search engines use sophisticated algorithms to search for relevant information from a collection of webpages. Features of search engines include text-based search, query auto-completion, personalized results, auto-translation, voice search, and AI-based search."
+    },
+    {
+        "instruction": "Generate a lead paragraph for a story about a robbery.",
+        "input": "",
+        "output": "The crime of the century had arrived in town. No one expected the heist, but that didn't stop a motley crew of criminals from making their daring attempt. With stealth, cunning and a well-crafted plan, they made it look like they were in the right place at the right time. As they made off with their stolen goods, the townspeople watched in shock and awe, filled with both fear and admiration. No one knew who was responsible, and as the police scrambled to learn the details of the break-in, the criminals stayed one step ahead. What had started as an ordinary day ended up as a story that no one could forget."
+    },
+    {
+        "instruction": "Name three benefits of time tracking.",
+        "input": "",
+        "output": "Time tracking can provide several benefits, including improved efficiency, better time management, and increased motivation. By tracking time, you can gain insight into where your time is being spent and see where improvements can be made. Additionally, keeping track of your time can provide motivation to stay on track and reach your goals."
+    },
+    {
+        "instruction": "How can artificial intelligence be used in healthcare?",
+        "input": "",
+        "output": "Artificial intelligence can be used in healthcare to improve patient care, streamline administrative tasks, and reduce workloads for medical personnel. AI can be used for medical imaging, diagnostics, and to monitor patient vitals and alert healthcare providers to potential problems. Additionally, AI can be used for drug development, genetic analysis, surgical simulations, and for personalizing treatment plans that are tailored to individual patient needs."
+    },
+    {
+        "instruction": "How would you improve the following marketing slogan?",
+        "input": "We make the best products.",
+        "output": "Discover the best products with us."
+    },
+    {
+        "instruction": "Construct a dialogue between two teenagers discussing their favorite movie",
+        "input": "",
+        "output": "Teen 1: Have you seen the new superhero movie that just came out?\nTeen 2: Yeah, it was amazing! I loved it! What was your favorite part?\nTeen 1: I liked the part where the hero had to fight off the villain and save the planet.\n\nTeen 2: That was so cool! I think my favorite part was when the hero had to figure out how to use their superpowers.\n\nTeen 1: Yeah, that was awesome! It's definitely one of my favorite movies."
+    },
+    {
+        "instruction": "Edit this article and make it sound more persuasive.",
+        "input": "Social media can be dangerous. It can cause younger people to become depressed, anxious, and insecure.",
+        "output": "Research shows that social media can be highly detrimental to young people, particularly those who are still developing emotionally and mentally. Numerous studies have linked the excessive usage of social media to the increasing likelihood of depression, anxiety, and insecurity in teens and even pre-teens. Anomalous behaviour online can be damaging for a number of reasons. It can lead to serious issues with self-esteem and self-worth, as users may be presented with a highly distorted picture of society, where everybody else appears to have a perfect life. Furthermore, it can also increase the risk of cyberbullying."
+    },
+    {
+        "instruction": "What type of works does the museum display?",
+        "input": "National Gallery, Washington",
+        "output": "The National Gallery of Washington displays a variety of works from European, American and international painters, photographers, and sculptors. They also offer an in-depth look at various artistic movements including Impressionism, Abstract Expressionism, Pop Art and Post-Minimalism."
+    },
+    {
+        "instruction": "Decipher the following ciphertext and recover the original message.",
+        "input": "Uryyb, jbeyq!",
+        "output": "Hello, world!"
+    },
+    {
+        "instruction": "Name the seven continents.",
+        "input": "",
+        "output": "The seven continents are Africa, Antarctica, Asia, Australia, Europe, North America, and South America."
+    },
+    {
+        "instruction": "Generate a list of 4-5 questions to ask a customer about their problem.",
+        "input": "A customer is having difficulty connecting to the wifi.",
+        "output": "1. What type of device are you attempting to connect with?\n2. Are there any error messages appearing?\n3. Have you attempted to reset the network settings?\n4. Are you in a location where the wifi signal is strong?\n5. Are you entering the correct wifi password?"
+    },
+    {
+        "instruction": "Analyze the following poem and explain its meaning.",
+        "input": "'My love is like a red, red rose'",
+        "output": "The poem is a description of a romantic love that is everlasting, just like the rose that constantly blooms all year round. The rose is also a symbol of beauty and love, so the poet is conveying that the love between the two is strong, beautiful and abiding."
+    },
+    {
+        "instruction": "Identify an age appropriate cartoon for children aged 4-6.",
+        "input": "",
+        "output": "Esme & Roy is a great age-appropriate cartoon for children aged 4-6. It follows two young monsters, Esme and Roy, who come to the rescue of their fellow monsters when they get into sticky predicaments. The series promotes problem-solving and collaboration, as well as caring and friendship. Plus, the animation and music are great fun!"
+    },
+    {
+        "instruction": "Describe the purpose of job analysis",
+        "input": "",
+        "output": "Job analysis is the process of studying and collecting information about the duties, responsibilities, and skill requirements of a job in order to determine its essential functions. It is used to analyze the job duties that a person is hired to perform and to assess an individual's skills in order to match them with the best possible position. Through job analysis, organizations are able to determine the qualifications that are needed to complete the job successfully."
+    },
+    {
+        "instruction": "What do you think is the biggest challenge facing the hospitality industry right now?",
+        "input": "",
+        "output": "The hospitality industry is facing several challenges, but the biggest one is probably the rapid adoption of new technology. Consumers are expecting more personalized services, and the industry needs to keep up with the ever-changing customer demands. Furthermore, hotels and restaurants must find ways to innovate and use technology to provide the best customer experience."
+    },
+    {
+        "instruction": "Summarize a given article in one to two paragraphs.",
+        "input": "https://www.nytimes.com/2020/08/17/arts/television/television-protests.html",
+        "output": "In recent months, there have been an unprecedented number of protests in response to police brutality and systemic racism. In response, a growing number of TV shows have taken on themes of social justice and police reform. Networks such as HBO, ABC, and Netflix are using their platforms to help address the systemic issues facing our society. These shows use their storytelling to bring the broader social issues to life, raising public awareness and inspiring action towards positive change."
+    },
+    {
+        "instruction": "Select the most suitable idiomatic expression from the alternatives and output it.",
+        "input": "Alternative:\nA. Take a backseat\nB. Take a seat\nC. Take a backrest",
+        "output": "A. Take a backseat"
+    },
+    {
+        "instruction": "Generate a new category for a cookbook.",
+        "input": "",
+        "output": "Quick and Easy Weekday Meals."
+    },
+    {
+        "instruction": "Paraphrase the following sentence.\nOutput should be similar in meaning to the input sentence.",
+        "input": "He watered the plants with enthusiasm.",
+        "output": "He enthusiastically sprinkled the plants with water."
+    },
+    {
+        "instruction": "Name a type of flower often used in bouquets.",
+        "input": "",
+        "output": "Roses are a popular flower often used in bouquets."
+    },
+    {
+        "instruction": "You are given a code snippet and you need to detect a bug in it.",
+        "input": "mystring = \"Hello World\" \nmystring.strip(\"H\")",
+        "output": "The bug in this code snippet is that the string is not assigned from the result of the strip function. This means that 'mystring' will remain \"Hello World\". The correct code should be mystring = mystring.strip(\"H\")."
+    },
+    {
+        "instruction": "Supplying a sample input, rephrase it with alternative words and sentence structure.",
+        "input": "The old man was walking down the street.",
+        "output": "An elderly gentleman strode along the pavement."
+    },
+    {
+        "instruction": "Create a top-down outline for writing a logical argument.",
+        "input": "",
+        "output": "A top-down outline for writing a logical argument includes the following: \n1. Introduction: provide a clear statement of the position or argument to be summarized. \n2. Body: provide evidence, facts, and figures to support the argument.\n3. Premises: present the premises upon which the argument is based and provide reasoning to explain the relationship between the premises and the conclusion. \n4. Objections: anticipate and address potential counter-arguments and objections, refuting them with evidence.\n5. Conclusion: restate the argument and summarize the main points of the outline."
+    },
+    {
+        "instruction": "Generate an example of how this technology could improve healthcare.",
+        "input": "AI-assisted medical imaging.",
+        "output": "AI-assisted medical imaging could be used to diagnose illnesses faster and more accurately than traditional imaging methods. AI-driven systems could be used to identify diseases at earlier stages while reducing the amount of time and resources spent on diagnostic work. This could lead to faster and more accurate treatments of a wide range of ailments, potentially saving many lives."
+    },
+    {
+        "instruction": "Give 3 reasons why a certain animal should be saved from extinction.",
+        "input": "Tiger",
+        "output": "The tiger should be saved from extinction because it is an important apex predator which contributes to the balance of the ecosystem, it is a keystone species with a significance to its local environment, and its beauty and grandeur add to the richness of our planet."
+    },
+    {
+        "instruction": "Write a sentence describing the taste of mango.",
+        "input": "",
+        "output": "The sweet, juicy flesh of a mango is like a burst of sunshine-filled flavor in your mouth."
+    },
+    {
+        "instruction": "Generate an original nursery rhyme based on the following word.",
+        "input": "Rabbit",
+        "output": "Rabbit hopped in the meadow,\nSwinging left and right,\nSaving up his carrots,\nFor a chilly winter night!"
+    },
+    {
+        "instruction": "Compose an email about the topic of your choice",
+        "input": "",
+        "output": "Subject: The Benefits of Education\n\nDear Colleagues, \n\nEducation is often considered the most important asset an individual has. Education has the power to open up a world of possibilities, to increase knowledge and understanding of the world we live in, and to acquire the skills needed to thrive. It can give us access to the career of our choice, open the door to a better lifestyle, and gives access to unique opportunities that we might not have had otherwise. \n\nThe benefits of education extend beyond our professional careers. Education aids in developing critical thinking skills, improves communication and increases our creativity. It can also help us become more informed citizens and help us become better citizens. \n\nThe advantages of education are endless. It is important that we all realize the impact education can have on our lives and strive to provide a better future for ourselves, our families, and our global society.\n\nSincerely, \n[your name]"
+    },
+    {
+        "instruction": "Summarize the sentence in one word.",
+        "input": "He lost his favorite dog and was devastated.",
+        "output": "Devastated."
+    },
+    {
+        "instruction": "Choose the more accurate information from the following two choices.",
+        "input": "Choice A: The Prime Minister of Canada is Justin Trudeau\nChoice B: The Prime Minister of Canada is Barack Obama",
+        "output": "Choice A: The Prime Minister of Canada is Justin Trudeau"
+    },
+    {
+        "instruction": "Create a class that accepts a username, email address, and password and has a method that will output a formatted string of the username, email and an asterisks representation of the password.",
+        "input": "username = \"USER123\", email = \"user123@gmail.com\", password = \"password123\"",
+        "output": "\"USER123, user123@gmail.com, **********\""
+    },
+    {
+        "instruction": "Generate a dinner menu for a family of six that is healthy and nutritious.",
+        "input": "",
+        "output": "Dinner menu for a family of six:\n- Grilled salmon with lemon and capers \n- Mixed green salad with vinaigrette \n- Roasted asparagus with garlic and olive oil\n- Quinoa with carrots, raisins, and scallions \n- Fruit salad with honey and lime\n- Whole wheat roll with butter"
+    },
+    {
+        "instruction": "Rewrite the following sentence for clarity.",
+        "input": "What makes this program different from the others?",
+        "output": "How does this program differentiate itself from the other programs?"
+    },
+    {
+        "instruction": "What kind of sentence is this?",
+        "input": "I am going to the store.",
+        "output": "Declarative sentence"
+    },
+    {
+        "instruction": "Create a social media strategy to attract followers on Twitter.",
+        "input": "",
+        "output": "The social media strategy for Twitter should involve Tweeting on a regular basis, with content that is engaging and relevant to the target audience. This can include retweetable quotes, links to videos and articles, sharing photos/images, polls, and so on. It is also beneficial for the information to include hashtags relevant to the content and any relevant topics of the industry. \n\nIt is also important to leverage Twitter influencers and accounts, as well as engaging with potential followers regularly and DM them when necessary. Additionally, running campaigns, contests and giveaways to gain more followers should also be part of the strategy. Finally, hashtag research should be conducted to increase the reach of the tweets."
+    },
+    {
+        "instruction": "Create a sentence using the given verb and adjective.",
+        "input": "Verb: glow\nAdjective: luminous",
+        "output": "The sky was illuminated with a luminous glow."
+    },
+    {
+        "instruction": "Calculate the area of the triangle given its sides are 5 cm, 10 cm, and 8 cm.",
+        "input": "",
+        "output": "The area of the triangle can be calculated using Heron's Formula, which is Area = √(s(s-a)(s-b)(s-c)), where a, b, and c are the sides of the triangle and s is the semiperimeter. Using this formula, the area of this triangle is 20 cm^2."
+    },
+    {
+        "instruction": "Create a bank statement using the following information.",
+        "input": "Deposit $6500. Withdrawal $1000.",
+        "output": "Bank Statement \nDate: XX/XX/XX \nTransaction Type\t\tAmount \nDeposit\t\t\t\t\t\t$6500.00 \nWithdrawal\t\t   \t\t$1000.00 \nBalance\t\t\t\t\t\t$5500.00"
+    },
+    {
+        "instruction": "Generate a creative story with an ending that includes a given keyword.",
+        "input": "Friendship",
+        "output": "Once upon a time there were two best friends, named Jack and Emma, who had been through thick and thin together. Over the course of their friendship, Jack had gone through tough times and Emma was always there for him. In the end, their friendship proved that even in the toughest of times, true friendship can never be broken and only grows stronger. They finally understood the true value of friendship."
+    },
+    {
+        "instruction": "Compare and contrast the two given news articles.",
+        "input": "Article 1: https://www.nytimes.com/2020/10/19/world/europe/turkey-migrant-route.html\nArticle 2: https://www.nytimes.com/2020/10/19/world/europe/greece-migrant-rescue.html",
+        "output": "Both articles focus on the current migrant and refugee crisis in Europe. In the first article, the crisis is addressed from a Turkish perspective. The article outlines the country’s efforts to stem the number of migrants arriving from Syria, Iraq, and Afghanistan. In addition, the article looks at the increasing number of summer boat travelers attempting to take the passage from Turkey to the Greek islands. The second article looks at the crisis from a Greek perspective. It addresses the actions taken by Greek authorities, such as patrols in the Aegean Sea and implementing more efficient dismissal processing in refugee camps. Furthermore, the article examines the operations of the Greek rescue ship, Dia Nefsi, which assists with rescue operations on the sea. Despite the two different perspectives, both articles agree that the migrant and refugee crisis in Europe needs to addressed."
+    },
+    {
+        "instruction": "Create a title for the given book summary.",
+        "input": "John is an accountant who discovers he can time travel after getting into an accident.",
+        "output": "Journey Through Time: A Accountant's Incredible Adventure."
+    },
+    {
+        "instruction": "Create two distinct synonyms for the word 'crazy'.",
+        "input": "",
+        "output": "Bonkers, zany."
+    },
+    {
+        "instruction": "Tell me about the seasons in the temperate forest biome.",
+        "input": "",
+        "output": "The temperate forest biome experiences four distinct seasons--spring, summer, autumn, and winter. During the spring, the weather is typically warm, rainy, and mild. The summer brings hot temperatures and plenty of sunshine. The fall brings cooler temperatures and increased precipitation. Lastly, the winter is typically cold and rainy. \n\nThe vegetation in these forests is also largely influenced by the change in seasons. Many plants and animals will flourish in the spring, while some may go dormant in the summer or winter."
+    },
+    {
+        "instruction": "Give me a 4-digit number",
+        "input": "",
+        "output": "0231"
+    },
+    {
+        "instruction": "Identify three potential risks of using artificial intelligence",
+        "input": "",
+        "output": "The potential risks associated with using artificial intelligence include algorithm bias, data privacy concerns, and loss of control over automated systems. Algorithm bias occurs when a system is trained on data that does not represent all potential outcomes, leading to inaccurate predictions. Data privacy is a concern when AI algorithms process large amounts of personal data, which can be abused by malicious actors. Finally, automated decisions made by AI systems could lead to unforeseen consequences if the consequences of such systems are not fully understood."
+    },
+    {
+        "instruction": "Generate a persuasive speech about decreasing the use of plastic",
+        "input": "",
+        "output": "Good morning everyone, \n\nToday, I’m here to talk to you about the importance of decreasing the use of plastic. Plastic pollution is a growing problem that affects not only our environment, but also our health. From our oceans to our landfills, plastic pollution is becoming increasingly pervasive and is destroying our planet. \n\nPlastic production involves many toxins which are hazardous to our environment and health. Studies have shown that long-term exposure to these toxins can lead to severe health problems. Additionally, plastic pollution is not biodegradable and takes years to break down. It is estimated that a single plastic bottle takes 450 years to completely decompose. This means that our planet is continuously accumulating waste that could have been prevented. \n\nIt is time for us to make a change now. We can all start by doing our part and reducing our plastic usage. Here are a few ways we can achieve this: 1) Avoid drinking from single-use plastic water bottles. 2) Utilize reusable bags for grocery shopping. 3) Choose items with minimal plastic packaging and wrapping. 4) Recycle whenever possible. \n\nIf we all take the time to make small, conscious changes in our daily lives, it’ll be easier to create a sustainable future. Let’s all make a pledge to reduce our plastic usage and work together to save the environment. \n\nThank you for your time."
+    },
+    {
+        "instruction": "Provide an overview of a new phone application that is user-friendly and beneficial.",
+        "input": "",
+        "output": "The new phone application is an intuitive, user-friendly aid that makes life easier and more efficient. It features an intuitive interface with easy-to-use functions that allows you to plan your activities and manage your tasks quickly and conveniently. It offers a comprehensive overview of your to-do list and helps you optimize your time and productivity with its comprehensive reminders and notifications. Additionally, it allows you to easily connect with contacts, locate and manage your documents, and access information online securely. It is designed to be resourceful and helpful, making it a great addition to any user's phone."
+    },
+    {
+        "instruction": "Summarize the following article \"The Benefits of Artificial Intelligence\" within 100 words.",
+        "input": "AI is rapidly becoming an integral part of our lives, and its potential applications are vast. AI could help minimize human labor while eliminating certain tasks altogether, such as data entry or document management. It can also be used to automate processes that are too complex or time-consuming for humans, increase accuracy and reduce errors, speed up research and development, improve customer service, and increase efficiency and productivity.",
+        "output": "AI offers many potential benefits, such as improving customer service, automating complex tasks, reducing labor, and increasing accuracy and efficiency. AI is increasingly being used to automate tasks too time-consuming for humans and to speed up research and development. These advantages of AI are paving the way for a more efficient and productive world."
+    },
+    {
+        "instruction": "Propose a remark for a college professor praising to a student who delivers an excellent project presentation.",
+        "input": "",
+        "output": "Excellent work! Your project presentation was very engaging and thorough."
+    },
+    {
+        "instruction": "Develop a narrative for the following abrupt dialogue.",
+        "input": "John: That's not how it happened!\nJane: You're wrong.",
+        "output": "John and Jane had been arguing for hours, their differing opinions evident in every point they made. John had been adamant that he was right, but Jane had disagreed and so the argument had raged on. When John finally declared that it wasn't how it had happened, Jane quickly fired back that he was wrong. Baffled, John looked at her, trying to make sense of the situation."
+    },
+    {
+        "instruction": "Change all occurrences of \"America/USA\" to \"United States of America\"",
+        "input": "Back in the 90s, America was the leading manufacturer of cars.",
+        "output": "Back in the 90s, United States of America was the leading manufacturer of cars."
+    },
+    {
+        "instruction": "Reverse this array: [1, 2, 3, 4, 5]",
+        "input": "[1, 2, 3, 4, 5]",
+        "output": "[5, 4, 3, 2, 1]"
+    },
+    {
+        "instruction": "Determine if the sentiment of a given tweet is positive, negative or neutral.",
+        "input": "I love playing guitar and exploring the great outdoors!",
+        "output": "positive"
+    },
+    {
+        "instruction": "Describe the phenomenon shown in the animation.",
+        "input": "Noinput",
+        "output": "The animation shows the process of condensation. As air cools, the water molecules in the air form droplets which collect on objects like window panes, forming tiny water droplets. Over time, the droplets form larger drops and the water droplets eventually merge, creating a thin layer of liquid. This process is an example of condensation and is an important part of the water cycle."
+    },
+    {
+        "instruction": "Find the entrance to the shopping mall",
+        "input": "A - 43rd Street, B - 49th Street, C - 72nd Street",
+        "output": "The entrance to the shopping mall is located on 49th Street."
+    },
+    {
+        "instruction": "Compose a story about a courageous lion in the African savanna.",
+        "input": "",
+        "output": "Once upon a time, there was a courageous lion in the African savanna. He was the bravest and strongest lion of the land, and he was respected by all the animals around him. He watched over his kin with pride and would never back down from a challenge. \n\nOne day, he came across a dangerous situation. A pack of poachers had come to the savanna and had widened a water-filled ditch with the intention of trapping the animals around it. As soon as he heard the sound of their axes and shovels, he knew that the small creatures of the land wouldn’t stand a chance against them. \n\nWithout hesitation, the lion ran towards the poachers, roaring and growling loudly. The poachers were scared and ran away, never to return. The animals cheered and thanked the lion for his courageous deeds. From then on, he served as a protector of the savanna, always ready to be at the forefront of any danger that threatened it."
+    },
+    {
+        "instruction": "Tell me whether the following sentence contains a metaphor or not. Output \"metaphor\" or \"no\".",
+        "input": "Life is a roller coaster.",
+        "output": "Metaphor"
+    },
+    {
+        "instruction": "Convert the following sentence into active voice:\n\nThe beach was walked by me.",
+        "input": "",
+        "output": "I walked the beach."
+    },
+    {
+        "instruction": "Describe what happens to our brain when we learn something.",
+        "input": "",
+        "output": "When we learn something, our brains form new neural pathways and connections between existing neurons. During the process of learning, the connections in our brains become stronger, establishing long-lasting memories. Once we have learned something, our brain pathways are rewired, allowing us to recall the information more quickly. Our brain also becomes better at processing information, allowing us to make new predictions and identify patterns more quickly and accurately. This allows us to more easily understand new concepts and make connections between different kinds of information."
+    },
+    {
+        "instruction": "Suggest two Twitter hashtags related to this article.",
+        "input": "WASHINGTON (CNN) -- A wide-open presidential race and a willingness by candidates, interest groups, unions and corporations to buy TV time will lead to historic spending for political and issue-advocacy advertising in the 2008 election cycle, an analysis shows.",
+        "output": "#Election2008 #CampaignAdvertising"
+    },
+    {
+        "instruction": "Write a summary of the author's main argument.",
+        "input": "[Article about the global effects of climate change]",
+        "output": "The author's main argument is that climate change is threatening the planet at an unprecedented rate, and its effects could be felt on a global scale. Climate change is caused by human activity, and the current trajectory is leading to an unstable global environment with an uncertain future. Therefore, it is important to take corrective steps against climate change to ensure the planet's future."
+    },
+    {
+        "instruction": "Given a sentence, reduce the length of the sentence using proper grammar.",
+        "input": "She went to the store, which she had never been to before.",
+        "output": "She had never been to the store before."
+    },
+    {
+        "instruction": "Generate a simile to describe a person's eye color.",
+        "input": "",
+        "output": "Her eyes were as blue as the summer sky."
+    },
+    {
+        "instruction": "Explain why it is important to understand the properties of waves",
+        "input": "",
+        "output": "It is important to understand the properties of waves because they are a fundamental part of our physical world. Waves are present in everyday life in the form of light, sound, and electromagnetic signals and can be used to communicate valuable information. Understanding the properties of waves is essential for accurate communication, since different types of waves have to be used to transmit different types of data. Additionally, waves are used in medical technologies, such as ultrasound for imaging, and in engineering, for air and water treatment. Understanding how waves interact with the environment and with other waves is essential to our understanding of the physical world."
+    },
+    {
+        "instruction": "Explain how voice search technology works.",
+        "input": "",
+        "output": "Voice search technology uses natural language processing and speech recognition to interpret spoken queries and respond with relevant answers. It works by first understanding the voice query by converting it into text, then searching through databases to retrieve the most relevant results. The technology also uses machine learning algorithms to continuously learn from past queries and deliver more accurate responses over time."
+    },
+    {
+        "instruction": "Classify an input string as either a noun or a verb.",
+        "input": "run",
+        "output": "Verb."
+    },
+    {
+        "instruction": "Write a short description about malaria.",
+        "input": "",
+        "output": "Malaria is a mosquito-borne infectious disease that affects humans and other animals. It is caused by a single-celled parasite of the Plasmodium species, which is transmitted to humans through the bites of infected female Anopheles mosquitoes. Symptoms of malaria include fever, fatigue, nausea, and vomiting. It can be fatal if not treated promptly."
+    },
+    {
+        "instruction": "Determine the length of the side of a square given the area.",
+        "input": "24",
+        "output": "The length of the side of the square is 6 units."
+    },
+    {
+        "instruction": "Explain the meaning of the proverb \"If a job is worth doing, it's worth doing well.\"",
+        "input": "",
+        "output": "The proverb \"If a job is worth doing, it's worth doing well\" means that any task or responsibility that has value should be completed with the highest quality standards possible. The proverb emphasizes the importance of putting effort into achieving success, as opposed to doing something half-heartedly or without thought."
+    },
+    {
+        "instruction": "Generate a metaphor that compares the concept of happiness to something concrete.",
+        "input": "",
+        "output": "Happiness is like a rainbow that shines through the clouds after the storm."
+    },
+    {
+        "instruction": "Describe the impact of global warming on the environment.",
+        "input": "",
+        "output": "Global warming has had a significant impact on the environment. The Earth’s average temperature has risen substantially, resulting in increased sea levels, extreme weather events, and greater threats to biodiversity. Additionally, climate change has caused acidification of the oceans, changes in soil structure, and a decrease in crop yields. These effects are likely to worsen in the future as temperatures continue to increase due to the accumulation of greenhouse gases in the atmosphere. Furthermore, the effects of global warming can lead to other problems such as population displacement and decreased access to food, water, and other essential resources, causing poverty and ultimately, conflict. Global warming is a pressing issue and requires international cooperation and coordinated efforts to reduce greenhouse gas emissions, increase energy efficiency and renewable energy sources, and protect resources."
+    },
+    {
+        "instruction": "Generate a metaphor that can be used to describe a sunset",
+        "input": "",
+        "output": "The sunset is like a curtain of color slowly descending on the canvas of the sky, casting an array of hues on all who behold it."
+    },
+    {
+        "instruction": "Draft an email to a company inquiring about internships.",
+        "input": "",
+        "output": "Subject Line: Inquiry about Internship Opportunities\n\nDear [Company Name],\n\nI am writing to inquire about potential internship opportunities at your company. I am a highly motivated student with a strong interest in [field of focus] and I believe that I would be a great fit for your company. I am eager to learn more about the work your company does and to contribute in a meaningful way.\n\nPlease let me know if you have any internships available. I have attached my resume for your review.\n\nThank you for your time and consideration.\n\nSincerely,\n\n[Your Name]"
+    },
+    {
+        "instruction": "Explain how a double taxation agreement works.",
+        "input": "",
+        "output": "A double taxation agreement is an agreement between two countries to avoid taxing in the same income both in the country of origin and in the country where the income is earned. This agreement determines which country has the right to levy a tax on the income and in which form (direct or indirect taxation). This prevents double taxation and assures that the same income is not taxed more than once."
+    },
+    {
+        "instruction": "What is the result of multiplying 87 and 183?",
+        "input": "",
+        "output": "15781"
+    },
+    {
+        "instruction": "Suggest the most effective way to learn a new language",
+        "input": "",
+        "output": "The most effective way to learn a new language is to immerse yourself in it. This means spending time with people who speak the language, watching movies and TV shows in the language, and reading books or other written material. Additionally, actively using the language is the best way to learn - find conversation partners to practice with or join a language exchange program. Finally, take advantage of digital language learning tools, such as apps or online courses, to supplement your learning."
+    },
+    {
+        "instruction": "Design a website for an online store selling handmade jewelry.",
+        "input": "",
+        "output": "The website could feature a simple, minimalistic design with a white and grey color scheme. The navigation should be intuitive and easy to use, allowing customers to browse different categories of jewelry. There should be a section for customer reviews and testimonials, as well as a blog or FAQ page. The homepage could feature a rotating carousel of featured products, with high-quality images and descriptions of each piece of jewelry."
+    },
+    {
+        "instruction": "Rewrite the following string with proper capitalization.",
+        "input": "i am a student.",
+        "output": "I am a student."
+    },
+    {
+        "instruction": "Implement n-gram analysis on the given line of text.",
+        "input": "Here is a line of text.",
+        "output": "2-gram:\n[\"Here is\", \"is a\", \"a line\", \"line of\", \"of text\"]\n3-gram:\n[\"Here is a\", \"is a line\", \"a line of\", \"line of text\"]"
+    },
+    {
+        "instruction": "Given a statement, you should come up with a meaningful quote that reflects the statement",
+        "input": "Failure is simply a stepping stone on the path to success",
+        "output": "“Success is not final, failure is not fatal: it is the courage to continue that counts.” - Winston Churchill"
+    },
+    {
+        "instruction": "Compose a short poem (between 5 to 10 lines) with the given title.",
+        "input": "Title: A Sunny Day",
+        "output": "The sky is so bright and clear\nI can almost feel the sun\nIt warms my heart and my soul\nMaking me feel so alive\nThe gentle rays of sunshine\nGiving me the energy to move\nSuch a wonderful day\nFilled with warmth and love\nA sunny day so sweet\nCausing me to dance on my feet."
+    },
+    {
+        "instruction": "Generate a descriptive phrase for a river at dawn.",
+        "input": "",
+        "output": "A shimmering ribbon of light snaking through the misty hills, the river glowed in the early morning sun."
+    },
+    {
+        "instruction": "Provide an example of a common mistake people make when using social media",
+        "input": "",
+        "output": "One common mistake that people make when using social media is posting without thinking. This can lead to embarrassing posts or posts that are inappropriate, offensive, or insensitive. It can also lead to content that is ill-conceived or misinterpreted. Additionally, people should pay attention to the audience and make sure that the content they are posting is suitable for all viewers."
+    }
+]

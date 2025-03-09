@@ -1,0 +1,102 @@
+[
+    {
+        "instruction": "Categorize the following paragraph. Output its categories one by one, seperated by comma.",
+        "input": "Two years after the United States ended its combat mission in Afghanistan, violence in the country remains shockingly high, with Taliban insurgents and other insurgent and militant groups maintaining a strong presence across the country. The Taliban has gained ground in some parts of the country, and the Afghan government is struggling to contain the threat.",
+        "output": "Afghanistan, Taliban, Military, Government."
+    },
+    {
+        "instruction": "Create an outline of an article about software engineering.",
+        "input": "",
+        "output": "I. Introduction \nA. Definition of Software Engineering\nB. History of Software Engineering\n\nII. Benefits of Software Engineering\nA. Greater Efficiency\nB. Reduced Costs\nC. Increased Security\n\nIII. Types of Software Engineering\nA. Object-Oriented Design\nB. Agile Development\nC. Model-Driven Development\n\nIV. Challenges of Software Engineering\nA. Complexity\nB. Scalability\nC. Performance Optimization\n\nV. Conclusion\nA. Summary \nB. Future Outlook"
+    },
+    {
+        "instruction": "Design a character from a novel or movie who embodies the given characteristics.",
+        "input": "Resourceful, loyal, and independent",
+        "output": "The character I created for this prompt is Kova, an elf who appears in the movie series The Lord of the Rings. Kova is an independent spirit who knows how to get things done. She is resourceful and uses her knowledge of herbs and plants to create potions and salves to help her allies. She is also loyal to her friends and is always willing to go to extraordinary lengths to help them."
+    },
+    {
+        "instruction": "Given a list of people, make a decision about who should be invited to the conference.",
+        "input": "John, Bob, Sarah, Alice",
+        "output": "John, Bob, Sarah, and Alice should be invited to the conference."
+    },
+    {
+        "instruction": "Identify the key differences between the two computer memory storages.",
+        "input": "RAM (Random Access Memory)\nROM (Read-only Memory)",
+        "output": "The key differences between RAM and ROM are the type of data they store, the speed of data access, and the type of operation performed on data. RAM is a type of fast memory that can read and write data. It stores data that can be quickly changed and updated, making it suitable for programs, applications, and data waiting to be processed. ROM is read-only memory, meaning it can only be read from and not written to. Unlike RAM, data stored in ROM is non-volatile, meaning it can still be accessed even if there is no power supply. ROM is mainly used to store the computer's BIOS, system settings and instruction programs."
+    },
+    {
+        "instruction": "Generate a solution for the following problem that involves binary search",
+        "input": "Given an array of size n, search for an element x",
+        "output": "A binary search can be used to solve this problem. First, the array must be sorted in ascending order. Then, set a low and high index. Compare the element at the mid-index with the target element. If the target element is lower than the mid-index, move the high index to the mid-index minus one. If it is higher, move the low index to the mid-index plus one. Repeat until the element is found or the low index is greater than the high index."
+    },
+    {
+        "instruction": "Construct a compound word using the following two words:",
+        "input": "Computer, science",
+        "output": "Computerscience"
+    },
+    {
+        "instruction": "Use the provided input data to write a short story.",
+        "input": "A girl named Sarah and her robot friend, Henry.",
+        "output": "Sarah had always longed for a friend, but no one in her small town seemed to understand her. She spent her days dreaming of adventures and exploring new lands. One day, while exploring a forgotten corner of the town, she stumbled upon Henry -- a robot that looked like it belonged to another era. She decided to take him with her, and from that day on, the two of them had the best of adventures. They explored old ruins, discovered hidden caves, and made lots of friends along the way. Most importantly, Sarah had the friendship she had always wanted."
+    },
+    {
+        "instruction": "Summarize the advantages of using GPT models in two sentences.",
+        "input": "",
+        "output": "GPT models offer high accuracy and quality results while requiring minimal pre-training, tuning and data. Furthermore, they are easy to deploy due to their small size and cost-effectiveness."
+    },
+    {
+        "instruction": "Classify the given animals into two categories.",
+        "input": "Lion, Cheetah, Elephant",
+        "output": "Carnivores: Lion, Cheetah\nHerbivores: Elephant"
+    },
+    {
+        "instruction": "Analyze the pros and cons of displaying ads on a website.",
+        "input": "",
+        "output": "The pros of displaying ads on a website are: \n- Ads can provide an additional revenue source for the website.\n- Ads can help draw more traffic to the site by increasing its visibility. \n- Ads can help establish the credibility of the website by working with well-known brands. \n\nThe cons of displaying ads on a website are: \n- Ads can be intrusive and detract from the user experience. \n- Ads can increase page loading times and lead to slower performance. \n- Ads can lead to a higher bounce rate as visitors may be less likely to stay on the site for a longer period of time.  \n- Ads can lead to low-quality traffic if not properly targeted. \n- Ads may lead to copyright or trademark infringement if the content is not licensed or properly attributed."
+    },
+    {
+        "instruction": "Please summarize the given statement in three sentences.",
+        "input": "Increasingly, companies are investing in artificial intelligence and data analytics as a way to become more competitive.",
+        "output": "The use of artificial intelligence and data analytics is becoming increasingly common in the business world. Companies are investing in these technologies to stay competitive in their markets and gain a competitive advantage in the industry. AI and data analytics provide companies with the capability to process and analyze huge amounts of data quickly, which can lead to better decision-making, increased efficiency, and cost savings."
+    },
+    {
+        "instruction": "Edit the sentence for better clarity.",
+        "input": "The biggest mountain in North America is Mount Rainier.",
+        "output": "Mount Rainier is the highest peak in North America."
+    },
+    {
+        "instruction": "Write a 500-word essay about the benefits of a healthy lifestyle.",
+        "input": "",
+        "output": "Living a healthy lifestyle has numerous benefits, both mentally and physically. Eating a balanced diet, getting regular exercise, and finding ways to manage stress have been shown to improve wellbeing and contribute to overall physical health. Eating a diet rich in fruits, vegetables, and other sources of fiber helps reduce the risk of certain chronic diseases, such as heart disease and diabetes. Exercise, even in small amounts, has been linked to better mental health. Studies have found links between regular physical activity and lower rates of stress, anxiety, and depression. Additionally, physical activity can help reduce the risk of developing certain types of cancer. Not only that, but getting regular exercise can also support healthy sleep patterns, improved concentration, and sharper memory. Living a healthy lifestyle can also have a positive effect on relationships and social wellbeing. Good physical and mental health can help people feel more connected to the community and foster positive relationships with family and friends. Finally, living a healthy lifestyle can be an important way of promoting self-care and developing healthy habits. Making healthy decisions day by day can provide a sense of control and increased self-esteem, which can lead to a more positive attitude towards life in general. Overall, living a healthy lifestyle leads to improved mental and physical health, stronger relationships, and a greater sense of self-worth."
+    },
+    {
+        "instruction": "Given a set of numbers, identify the number which has the greatest value.",
+        "input": "5, 11, 87, 32",
+        "output": "The number with the greatest value is 87."
+    },
+    {
+        "instruction": "Identify five advantages of using a GPT-based natural language processing model.",
+        "input": "",
+        "output": "1. GPT-based NLU models are faster and more accurate than manual annotation.\n2. GPT-based NLU models are more easily customisable and can leverage pre-trained models. \n3. GPT-based models can be applied to a variety of tasks, including language generation, translation, summarisation, etc.\n4. GPT-based NLU models can learn from data in a more efficient manner than traditional methods.\n5. GPT-based NLU models can generate natural language responses which no other technique can reproduce."
+    },
+    {
+        "instruction": "Generate a user interface design for a mobile phone app that helps people track their daily tasks and to-do lists.",
+        "input": "",
+        "output": "The app should have an intuitive and simple user interface. It should include a calendar, a task list, and a reminders feature. The calendar should feature interactive buttons that indicate progress towards completion of each task and deadlines, allowing users to quickly see which tasks have been completed or have yet to be completed. The task list should be sorted according to priority, urgency, and/or type, and should allow users to add, complete, and/or delete tasks from the list. The reminders feature should allow users to set reminders for individual tasks, as well as general reminders for the app’s events and deadlines."
+    },
+    {
+        "instruction": "Add an appropriate transitional phrase to connect the following two sentences.",
+        "input": "I could not finish the project on time. It caused me a lot of stress.",
+        "output": "I could not finish the project on time, which caused me a lot of stress."
+    },
+    {
+        "instruction": "Suggest three tips to improve Internet security.",
+        "input": "",
+        "output": "Here are three tips to help improve your Internet security: \n\n1. Use strong passwords to protect your accounts and devices, and think twice before sharing them with anyone.\n2. Use two-factor authentication when available to add an extra layer of security to your accounts.\n3. Update your software regularly and be aware of potential scams and malicious websites."
+    },
+    {
+        "instruction": "How would you search for a paper in a scholarly database?",
+        "input": "",
+        "output": "To search for a paper in a scholarly database you can use keywords or phrases related to the paper you are looking for. You can also use filters to narrow down the search results, such as publication date or resource type. Getting results relevant to your query may also require advanced searches including Boolean operators (AND, OR, NOT) and truncation symbols. It is also important to look into the website's search parameters to make sure you are interpreting the searches correctly."
+    }
+]
