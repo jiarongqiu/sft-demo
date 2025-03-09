@@ -1,102 +1,502 @@
 [
     {
-        "instruction": "Categorize the following paragraph. Output its categories one by one, seperated by comma.",
-        "input": "Two years after the United States ended its combat mission in Afghanistan, violence in the country remains shockingly high, with Taliban insurgents and other insurgent and militant groups maintaining a strong presence across the country. The Taliban has gained ground in some parts of the country, and the Afghan government is struggling to contain the threat.",
-        "output": "Afghanistan, Taliban, Military, Government."
-    },
-    {
-        "instruction": "Create an outline of an article about software engineering.",
+        "instruction": "Find and explain an example of a false assumption.",
         "input": "",
-        "output": "I. Introduction \nA. Definition of Software Engineering\nB. History of Software Engineering\n\nII. Benefits of Software Engineering\nA. Greater Efficiency\nB. Reduced Costs\nC. Increased Security\n\nIII. Types of Software Engineering\nA. Object-Oriented Design\nB. Agile Development\nC. Model-Driven Development\n\nIV. Challenges of Software Engineering\nA. Complexity\nB. Scalability\nC. Performance Optimization\n\nV. Conclusion\nA. Summary \nB. Future Outlook"
+        "output": "A false assumption is the idea that all people are motivated by money. This is not true, as some people are motivated by creating meaningful work or helping others. Other people may be motivated by creating something that lasts and makes a difference beyond just financial gain. People are motivated by different things, so assuming that everyone is only motivated by money is a false assumption."
     },
     {
-        "instruction": "Design a character from a novel or movie who embodies the given characteristics.",
-        "input": "Resourceful, loyal, and independent",
-        "output": "The character I created for this prompt is Kova, an elf who appears in the movie series The Lord of the Rings. Kova is an independent spirit who knows how to get things done. She is resourceful and uses her knowledge of herbs and plants to create potions and salves to help her allies. She is also loyal to her friends and is always willing to go to extraordinary lengths to help them."
+        "instruction": "Recognize the fallacy in this argument",
+        "input": "All scientists reject the notion of a god, so clearly god does not exist.",
+        "output": "The fallacy in this argument is an argument from authority. Just because all scientists reject the notion of a god does not necessarily mean that god does not exist. This argument does not present any evidence to support the idea that god does not exist, and so the conclusion should not be accepted."
     },
     {
-        "instruction": "Given a list of people, make a decision about who should be invited to the conference.",
-        "input": "John, Bob, Sarah, Alice",
-        "output": "John, Bob, Sarah, and Alice should be invited to the conference."
-    },
-    {
-        "instruction": "Identify the key differences between the two computer memory storages.",
-        "input": "RAM (Random Access Memory)\nROM (Read-only Memory)",
-        "output": "The key differences between RAM and ROM are the type of data they store, the speed of data access, and the type of operation performed on data. RAM is a type of fast memory that can read and write data. It stores data that can be quickly changed and updated, making it suitable for programs, applications, and data waiting to be processed. ROM is read-only memory, meaning it can only be read from and not written to. Unlike RAM, data stored in ROM is non-volatile, meaning it can still be accessed even if there is no power supply. ROM is mainly used to store the computer's BIOS, system settings and instruction programs."
-    },
-    {
-        "instruction": "Generate a solution for the following problem that involves binary search",
-        "input": "Given an array of size n, search for an element x",
-        "output": "A binary search can be used to solve this problem. First, the array must be sorted in ascending order. Then, set a low and high index. Compare the element at the mid-index with the target element. If the target element is lower than the mid-index, move the high index to the mid-index minus one. If it is higher, move the low index to the mid-index plus one. Repeat until the element is found or the low index is greater than the high index."
-    },
-    {
-        "instruction": "Construct a compound word using the following two words:",
-        "input": "Computer, science",
-        "output": "Computerscience"
-    },
-    {
-        "instruction": "Use the provided input data to write a short story.",
-        "input": "A girl named Sarah and her robot friend, Henry.",
-        "output": "Sarah had always longed for a friend, but no one in her small town seemed to understand her. She spent her days dreaming of adventures and exploring new lands. One day, while exploring a forgotten corner of the town, she stumbled upon Henry -- a robot that looked like it belonged to another era. She decided to take him with her, and from that day on, the two of them had the best of adventures. They explored old ruins, discovered hidden caves, and made lots of friends along the way. Most importantly, Sarah had the friendship she had always wanted."
-    },
-    {
-        "instruction": "Summarize the advantages of using GPT models in two sentences.",
+        "instruction": "What is the process for creating a data visualization?",
         "input": "",
-        "output": "GPT models offer high accuracy and quality results while requiring minimal pre-training, tuning and data. Furthermore, they are easy to deploy due to their small size and cost-effectiveness."
+        "output": "The process for creating a data visualization includes identifying an appropriate format for the data, gathering and cleaning the data, understanding the underlying patterns and relationships in the data, designing the visualization, creating the visualization, testing the visualization and any interactivity, and sharing the visualization. Each step requires careful consideration of the data, the audience, and the purpose of the visualization in order to create an accurate and meaningful representation of the data."
     },
     {
-        "instruction": "Classify the given animals into two categories.",
-        "input": "Lion, Cheetah, Elephant",
-        "output": "Carnivores: Lion, Cheetah\nHerbivores: Elephant"
+        "instruction": "Find and correct 2 grammar mistakes in the following sentence.",
+        "input": "The students have rapidly improve their literacy over the last year.",
+        "output": "The students have rapidly improved their literacy over the last year."
     },
     {
-        "instruction": "Analyze the pros and cons of displaying ads on a website.",
+        "instruction": "Come up with an essay on the importance of emotions in decision-making.",
+        "input": "No input",
+        "output": "Decision-making is an integral part of life, but the process of making decisions can be complex and subjective. Making decisions involves more than just rational thought and logic, it also involves emotion. In fact, emotion has been found to play a crucial role in decision-making. Emotions are a powerful force that can both help and hinder the decision-making process. On one hand, emotions can influence an individual's thought process and can help them make decisions that would not have been possible without them. For example, emotions such as compassion or empathy can lead to decisions that are more beneficial to society, as opposed to decisions made without such emotions. On the other hand, emotions can also lead to decisions that are not in the best interest of an individual or society, such as decisions motivated by fear or anger. It is important, therefore, to use emotions judiciously and consider both the positive and negative effects of emotions when making decisions. By understanding the role of emotion in decision-making, an individual can make decisions that are more informed and wise."
+    },
+    {
+        "instruction": "Explain how deforestation affects global climate",
         "input": "",
-        "output": "The pros of displaying ads on a website are: \n- Ads can provide an additional revenue source for the website.\n- Ads can help draw more traffic to the site by increasing its visibility. \n- Ads can help establish the credibility of the website by working with well-known brands. \n\nThe cons of displaying ads on a website are: \n- Ads can be intrusive and detract from the user experience. \n- Ads can increase page loading times and lead to slower performance. \n- Ads can lead to a higher bounce rate as visitors may be less likely to stay on the site for a longer period of time.  \n- Ads can lead to low-quality traffic if not properly targeted. \n- Ads may lead to copyright or trademark infringement if the content is not licensed or properly attributed."
+        "output": "Deforestation is a major contributor to global climate change. Trees absorb carbon dioxide from the atmosphere, but without them, more carbon dioxide is released into the atmosphere. This, in turn, leads to an increase in average temperatures and changes in weather patterns. Additionally, loss of forests impacts local and global biodiversity, soil fertility, and water cycles."
     },
     {
-        "instruction": "Please summarize the given statement in three sentences.",
-        "input": "Increasingly, companies are investing in artificial intelligence and data analytics as a way to become more competitive.",
-        "output": "The use of artificial intelligence and data analytics is becoming increasingly common in the business world. Companies are investing in these technologies to stay competitive in their markets and gain a competitive advantage in the industry. AI and data analytics provide companies with the capability to process and analyze huge amounts of data quickly, which can lead to better decision-making, increased efficiency, and cost savings."
+        "instruction": "Find the area for the following triangle",
+        "input": "Side a = 10\nSide b = 12\nAngle (in degrees) = 90",
+        "output": "The area of the triangle is 60. The area can be calculated using the formula A = 1/2 x a x b x sin(angle). In this case, it is 1/2 x 10 x 12 x sin(90) = 60."
     },
     {
-        "instruction": "Edit the sentence for better clarity.",
-        "input": "The biggest mountain in North America is Mount Rainier.",
-        "output": "Mount Rainier is the highest peak in North America."
+        "instruction": "Evaluate the following article to find the strengths and weaknesses.",
+        "input": "Pittsburgh is a city that has reinvented itself and is now one of the most vibrent economies in the United States. With an ever-growing population and an equally strong talent pool moving to the city and diverse industries and an attractive quality of living – Pittsburgh is truly a great place to live, work and play.\n\nThe city is a major hub for innovation and creativity with the second HQ of Google and Amazon reportedly located in the city. The vibrant cityscape and a technology driven job market makes it a great place for professionals flock to for opportunity and stability.\n\nInternationally, the city has always been a leader in the technology and innovation driven economy for the past three decades. At any given time there are more than 500 tech startups and entrepreneurial ventures in the city.\n\nThe city has also been at the forefront in the green movement, with initiatives such as the GoGreen Pittsburgh program to conserve energy and reduce waste.",
+        "output": "Strengths:\n- Diverse population and talent pool \n- Attractive quality of living\n- Major hub for innovation and creativity\n- Second headquarters of Google and Amazon\n- Vibrant cityscape\n- Technology driven job market\n- 500+ technology startups\n- Green initiatives to conserve energy and reduce waste\n\nWeaknesses: \n- None identified."
     },
     {
-        "instruction": "Write a 500-word essay about the benefits of a healthy lifestyle.",
+        "instruction": "List three examples of famous figures who practiced civil disobedience",
         "input": "",
-        "output": "Living a healthy lifestyle has numerous benefits, both mentally and physically. Eating a balanced diet, getting regular exercise, and finding ways to manage stress have been shown to improve wellbeing and contribute to overall physical health. Eating a diet rich in fruits, vegetables, and other sources of fiber helps reduce the risk of certain chronic diseases, such as heart disease and diabetes. Exercise, even in small amounts, has been linked to better mental health. Studies have found links between regular physical activity and lower rates of stress, anxiety, and depression. Additionally, physical activity can help reduce the risk of developing certain types of cancer. Not only that, but getting regular exercise can also support healthy sleep patterns, improved concentration, and sharper memory. Living a healthy lifestyle can also have a positive effect on relationships and social wellbeing. Good physical and mental health can help people feel more connected to the community and foster positive relationships with family and friends. Finally, living a healthy lifestyle can be an important way of promoting self-care and developing healthy habits. Making healthy decisions day by day can provide a sense of control and increased self-esteem, which can lead to a more positive attitude towards life in general. Overall, living a healthy lifestyle leads to improved mental and physical health, stronger relationships, and a greater sense of self-worth."
+        "output": "Three prominent figures who practiced civil disobedience are Mahatma Gandhi, Martin Luther King, Jr. and Rosa Parks. Gandhi led numerous nonviolent protests in India during the twentieth century to oppose the British Raj. Martin Luther King, Jr. organized a series of protests and boycotts in the American South during the 1950s and 1960s to advocate for the civil rights of African Americans. Finally, Rosa Parks, an African-American woman, famously refused to give her seat up to a white person on a bus in Alabama in 1955, inspiring many in the civil rights movement."
     },
     {
-        "instruction": "Given a set of numbers, identify the number which has the greatest value.",
-        "input": "5, 11, 87, 32",
-        "output": "The number with the greatest value is 87."
+        "instruction": "Read the following statement and classify it in one of the following categories: political, economic or social.",
+        "input": "Violence against women is increasing in certain parts of the world.",
+        "output": "Social"
     },
     {
-        "instruction": "Identify five advantages of using a GPT-based natural language processing model.",
+        "instruction": "Generate a step-by-step guide on how to make scrambled eggs.",
         "input": "",
-        "output": "1. GPT-based NLU models are faster and more accurate than manual annotation.\n2. GPT-based NLU models are more easily customisable and can leverage pre-trained models. \n3. GPT-based models can be applied to a variety of tasks, including language generation, translation, summarisation, etc.\n4. GPT-based NLU models can learn from data in a more efficient manner than traditional methods.\n5. GPT-based NLU models can generate natural language responses which no other technique can reproduce."
+        "output": "1. Gather your ingredients: eggs, butter, salt, and pepper.\n2. Crack two eggs into a bowl and scramble with a fork.\n3. Heat butter in a skillet on medium heat.\n4. Add scrambled eggs to the skillet and cook until they are nearly done.\n5. Add salt and pepper to taste.\n6. Push the eggs around the pan until they are cooked through. \n7. Serve and enjoy!"
     },
     {
-        "instruction": "Generate a user interface design for a mobile phone app that helps people track their daily tasks and to-do lists.",
+        "instruction": "Write a few lines of lyrics for a song.",
         "input": "",
-        "output": "The app should have an intuitive and simple user interface. It should include a calendar, a task list, and a reminders feature. The calendar should feature interactive buttons that indicate progress towards completion of each task and deadlines, allowing users to quickly see which tasks have been completed or have yet to be completed. The task list should be sorted according to priority, urgency, and/or type, and should allow users to add, complete, and/or delete tasks from the list. The reminders feature should allow users to set reminders for individual tasks, as well as general reminders for the app’s events and deadlines."
+        "output": "Don't be afraid of letting go,\nlet it all just flow.\nTake a leap of faith,\nhere's the chance to break away."
     },
     {
-        "instruction": "Add an appropriate transitional phrase to connect the following two sentences.",
-        "input": "I could not finish the project on time. It caused me a lot of stress.",
-        "output": "I could not finish the project on time, which caused me a lot of stress."
+        "instruction": "You are given a list of ingredients and a list of instructions, and you need to write a poem about cooking.",
+        "input": "Ingredients: Flour, milk, sugar, eggs\nInstructions: Mix all ingredients together in a bowl, bake in an oven at 350 degrees for 25 minutes",
+        "output": "Gather the flour and milk, the eggs and then the sugar,\nMix it all together in a bowl and carefully measure.\nPop it in the oven at a hale and hearty three fifty,\nThen let the magic of baking begin in a jiffy!\n\nThe timer's ticking, anticipation is high,\nThe sweet smells of cooking fill the room in no time.\nTake it out of the oven, let it cool if you please,\nEnjoy the delicious treat, you've destroyed all your ills!"
     },
     {
-        "instruction": "Suggest three tips to improve Internet security.",
+        "instruction": "Come up with three advantages of having a pet",
         "input": "",
-        "output": "Here are three tips to help improve your Internet security: \n\n1. Use strong passwords to protect your accounts and devices, and think twice before sharing them with anyone.\n2. Use two-factor authentication when available to add an extra layer of security to your accounts.\n3. Update your software regularly and be aware of potential scams and malicious websites."
+        "output": "Three advantages of having a pet are: \n\n1. Companionship – Pets can provide comfort and companionship, making people feel less lonely and reducing stress levels.\n\n2. Health Benefits – Pets can help reduce blood pressure and cholesterol levels, as well as boost immunity and reduce the risk of allergies in children.\n\n3. Exercise – Having a pet encourages people to get outside and exercise, helping to improve overall physical health and well-being."
     },
     {
-        "instruction": "How would you search for a paper in a scholarly database?",
+        "instruction": "Find the missing word that completes the idiom:",
+        "input": "It is better to be _____ than sorry.",
+        "output": "It is better to be safe than sorry."
+    },
+    {
+        "instruction": "Generate a list of adjectives describing a fortune teller.",
         "input": "",
-        "output": "To search for a paper in a scholarly database you can use keywords or phrases related to the paper you are looking for. You can also use filters to narrow down the search results, such as publication date or resource type. Getting results relevant to your query may also require advanced searches including Boolean operators (AND, OR, NOT) and truncation symbols. It is also important to look into the website's search parameters to make sure you are interpreting the searches correctly."
+        "output": "- Mystic\n- Intuitive\n- All-knowing\n- Clairvoyant\n- Wise\n- Mystical\n- Insightful\n- Discreet\n- Sagacious\n- Perceptive\n- Enchanting\n- Inscrutable\n- Prescient\n- Seer\n- Imposing\n- Spellbinding\n- Visionary\n- Charismatic\n- Revealing"
+    },
+    {
+        "instruction": "Convert the following integers from decimal to binary.",
+        "input": "45, 67",
+        "output": "45 (binary representation): 101101\n67 (binary representation): 1000011"
+    },
+    {
+        "instruction": "Classify the sentiment in the given sentence.",
+        "input": "I am so excited to go on this trip!",
+        "output": "Positive sentiment."
+    },
+    {
+        "instruction": "Read the followingwiki article and provide a short summary.",
+        "input": "https://en.wikipedia.org/wiki/Ford_Mustang",
+        "output": "The Ford Mustang is an American car manufactured by Ford Motor Company. It was first released in 1964 and has since become a symbol of American muscle cars. Its classic design has been updated over the years and today the Mustang stands alone as a model of modern performance and style. It is currently offered in several models with various engine and trim options, allowing buyers to customize the Mustang to their own preferences."
+    },
+    {
+        "instruction": "Write a recipe for a cheese omelette.",
+        "input": "",
+        "output": "Ingredients:\n- 3 eggs\n- ¼ cup of milk\n- ½ cup of shredded cheddar cheese\n- 1 tablespoon of butter\n- Salt and pepper to taste\n\nInstructions:\n\n1. Beat the eggs in a bowl with the milk.\n2. Melt butter in a large skillet over medium heat.\n3. Pour the egg mixture into the skillet and let it cook for a few minutes.\n4. Sprinkle the cheese over the omelette, and then fold the omelette in half.\n5. Continue cooking for about another 3-4 minutes, or until the cheese is melted and the omelette is cooked through.\n6. Serve with salt and pepper to taste."
+    },
+    {
+        "instruction": "Rank the following in order from most to least important: exercise, sleep, food",
+        "input": "",
+        "output": "Sleep, food, exercise."
+    },
+    {
+        "instruction": "Suggest five strategies for time management.",
+        "input": "",
+        "output": "1. Make a daily to-do list and prioritize tasks. \n2. Set realistic goals and work towards them.\n3. Take regular breaks to stay focused. \n4. Delegate tasks when possible. \n5. Eliminate distractions and focus on the task at hand."
+    },
+    {
+        "instruction": "Discuss the differences between a microwave and an oven.",
+        "input": "",
+        "output": "The main difference between microwaves and ovens is the type of heat they use to cook food. Microwaves cook food using microwaves and are much faster than ovens, which cook food using conduction and convection. Ovens can cook more complex dishes than microwaves and can also cook larger amounts of food, but they take much longer than microwaves. Additionally, microwaves provide a more even cook, while ovens can create hot spots."
+    },
+    {
+        "instruction": "Generate a list of 3-digit numbers.",
+        "input": "",
+        "output": "111, 229, 294, 373, 462, 591, 600, 721, 830, 985."
+    },
+    {
+        "instruction": "Identify who said this line in the movie \"The Lion King\".",
+        "input": "\"It's times like these when I realize what a fool I've been.\"",
+        "output": "Scar"
+    },
+    {
+        "instruction": "How can I make an grocery shopping list for the week?",
+        "input": "",
+        "output": "To make a grocery shopping list for the week, start by making a list of the meals you'd like to make during the week. For each meal, make a list of the ingredients you'll need. Then, look through your pantry and refrigerator and make a list of any items you already have on hand. Finally, review your lists and make sure to add any additional items you'll need to purchase."
+    },
+    {
+        "instruction": "Assign a profession to this person.",
+        "input": "Jill is an excellent writer, always able to twist words into a stunning masterpiece.",
+        "output": "Jill can be assigned the profession of a writer."
+    },
+    {
+        "instruction": "Recommend three apps that may be beneficial for the given user.",
+        "input": "A college student looking for productivity apps",
+        "output": "For a college student looking for productivity apps, we recommend: 1) Trello - Great for managing tasks and projects; 2) Evernote - Perfect for taking notes and organizing information; and 3) Todoist - Perfect for keeping track of assignments and tasks."
+    },
+    {
+        "instruction": "Search the web and provide an estimated number of Rohingya refugees in Bangladesh.",
+        "input": "",
+        "output": "According to the United Nations High Commissioner for Refugees (UNHCR), there are an estimated 926,000 Rohingya refugees in Bangladesh."
+    },
+    {
+        "instruction": "Generate a story according to this setting.",
+        "input": "A bakery in the middle of a forest.",
+        "output": "Once upon a time, deep in the heart of the forest, there was a small bakery that had been passed down through the generations. Despite its hidden location, the bakery always seemed quite busy and people came from far and wide to savor its delicious treats. The bakery was renowned far and wide for being a place of wonder; its pastries were nothing short of magical. Every morning, the exotic scents of sweet and savory cakes and pastries filled the air. Not a single soul who ever ventured into the bakery went home disappointed."
+    },
+    {
+        "instruction": "Identify which of the following options does not belong",
+        "input": "Sleeping, running, swimming, texting",
+        "output": "Texting"
+    },
+    {
+        "instruction": "Describe the culture of Ancient Greece.",
+        "input": "",
+        "output": "Ancient Greek culture was deeply rooted in their spiritual beliefs and values. They believed in gods and goddesses of Mount Olympus and celebrated religious festivals in their honor. They valued hard work and honor, as well as education and intellectual pursuits. Citizens of Ancient Greece were divided into many classes, which included citizens, artisans, peasants, and slaves. Ancient Greek society had important contributions to many aspects of western civilization, such as drama, politics, science, and philosophy."
+    },
+    {
+        "instruction": "Generate a 3-month budget plan for a household of 4.",
+        "input": "",
+        "output": "Monthly Budget Plan:\n1. Housing: $1,500 \n2. Food: $800 \n3. Utilities: $250 \n4. Transportation: $250 \n5. Insurance: $150 \n6. Entertainment: $150 \n7. Miscellaneous: $100 \n8. Savings: $100 \nTotal: $3,000"
+    },
+    {
+        "instruction": "Rewrite this sentence using a relative clause:",
+        "input": "The boy who laughed was upset.",
+        "output": "The boy, who laughed, was upset."
+    },
+    {
+        "instruction": "List 3 websites for finding discounted hotel deals",
+        "input": "",
+        "output": "Three websites for finding discounted hotel deals are Kayak, Hotels.com, and TripAdvisor."
+    },
+    {
+        "instruction": "Explain why a computer cannot make decisions the same way human can?",
+        "input": "",
+        "output": "A computer cannot make decisions the same way humans can because computers work based on a set of instructions and predetermined algorithms while humans can make decisions based on experience, intuition, and emotions. Computers are limited to the exact set of instructions they are programmed with, while humans can use past experiences, their current emotions and other subjective criteria to make decisions. Humans can also take into account unexpected and unmeasurable criteria like context, pressure, or motivation to decide the best course of action which computers cannot do. So, computers are not capable of making decisions the same way humans can."
+    },
+    {
+        "instruction": "Provide a list of skills an engineer should possess.",
+        "input": "",
+        "output": "Engineers should possess strong analytical and problem-solving skills. They need to be creative and have the ability to think outside the box. They must be able to communicate effectively, both verbally and written. They need to be able to work under pressure and manage their time efficiently. They must have knowledge of mathematics and sciences, as well as experience with computer assisted design software. They should also possess engineering design experience and take responsibility for their projects. Finally, engineers should maintain up-to-date knowledge on advances in engineering technology."
+    },
+    {
+        "instruction": "Generate a proverb starting with \"Beauty is...\"",
+        "input": "",
+        "output": "Beauty is in the eye of the beholder."
+    },
+    {
+        "instruction": "Create a sound system for a library.",
+        "input": "",
+        "output": "A sound system for a library should include speakers, audio amplifiers, a mixer, audio cables, and a digital music library."
+    },
+    {
+        "instruction": "Suggest an experiment to help determine the validity of this claim.",
+        "input": "People who eat breakfast perform better in school.",
+        "output": "An experiment to test this claim could involve students in a school setting completing tests before and after. The students could be split into two groups, one that eats breakfast before the test and one that does not. The results of both groups’ tests could be compared to see if the group that ate breakfast had improved scores compared to the group that did not."
+    },
+    {
+        "instruction": "Create 5 open ended questions about a given topic.",
+        "input": "3D printing",
+        "output": "1. What are the advantages and disadvantages of 3D printing? \n2. How is 3D printing being used in various industries?\n3. What are the main components of a 3D printing machine?\n4. How does the technology of 3D printing work?\n5. What are the current trends in 3D printing?"
+    },
+    {
+        "instruction": "Create one example of how a good user experience will make users come back",
+        "input": "",
+        "output": "When a user uses a product or website, providing them with personalized content based on their previous purchases or browsing behavior can create a good user experience and make them come back in the future."
+    },
+    {
+        "instruction": "Generate a login / signup form",
+        "input": "",
+        "output": "<html>\n<head>\n  <title>Login / Signup Form</title>\n</head>\n<body>\n  <!-- Form to log in an existing user -->\n  <h1>Login</h1>\n  <form action=\"process_login.php\" method=\"post\">\n    <div>\n      <label for=\"username\">Username:</label>\n      <input type=\"text\" name=\"username\" id=\"username\">\n    </div>\n    <div>\n      <label for=\"password\">Password:</label>\n      <input type=\"password\" name=\"password\" id=\"password\">\n    </div>\n    <input type=\"submit\" name=\"submit\" value=\"Login\">\n  </form>\n  <!-- Form to create a new account -->\n  <h1>Signup</h1>\n  <form action=\"process_signup.php\" method=\"post\">\n    <div>\n      <label for=\"username\">Create a Username:</label>\n      <input type=\"text\" name=\"username\" id=\"username\">\n    </div>\n    <div>\n      <label for=\"password\">Create a Password:</label>\n      <input type=\"password\" name=\"password\" id=\"password\">\n    </div>\n    <div>\n      <label for=\"email\">Enter your Email:</label>\n      <input type=\"text\" name=\"email\" id=\"email\">\n    </div>\n    <input type=\"submit\" name=\"submit\" value=\"Signup\">\n  </form>\n</body>\n</html>"
+    },
+    {
+        "instruction": "Given the input, explain why revenge is considered a negative emotion.",
+        "input": "",
+        "output": "The pursuit of revenge is often driven by destructive emotions such as anger and resentment. It can distract someone from more productive tasks, and can lead to impulsive decisions that can have greater consequences than the original situation. Additionally, revenge can lead to cycles of violence that perpetuate more anger and suffering, rather than offering any real healing."
+    },
+    {
+        "instruction": "Explain the meaning of the phrase “to wear one's heart on one's sleeve”.",
+        "input": "",
+        "output": "The phrase \"to wear one's heart on one's sleeve\" means to openly show one's emotions and feelings."
+    },
+    {
+        "instruction": "Come up with at least five questions to ask when interviewing a candidate for an upcoming job.",
+        "input": "",
+        "output": "1. What motivated you to apply for this position?\n2. What skills and experiences do you have that make you a good fit for this job?\n3. How well do you work in a team environment?\n4. What do you think are the biggest challenges you may face in this role?\n5. How would you prioritize tasks in order to meet deadlines?\n6. What experience do you have managing complex projects?\n7. What process do you use to make sure you’re doing your best work?\n8. Are you comfortable adapting to different types of work environments?\n9. How do you maintain enthusiasm when faced with challenging tasks?\n10. What strategies have you used to stay organized and goal-oriented?"
+    },
+    {
+        "instruction": "Please provide an example of an effective way to close an email.",
+        "input": "",
+        "output": "An effective way to close an email is by thanking the recipient for their time and including a call to action. For example, “Thank you for taking the time to read this message. I hope to hear from you soon.” By thanking the reader for their time, you can create an impression of respect and professionalism. Additionally, making a call to action can motivate a response and may help you achieve your intended goal in the email."
+    },
+    {
+        "instruction": "Create a word collocation from the given words that would make sense in an article about financial regulations.",
+        "input": "Strict, Financial, Regulations",
+        "output": "Strict financial regulations."
+    },
+    {
+        "instruction": "Generate an email template to apologize for an error.",
+        "input": "",
+        "output": "An email template will be generated to apologize for an error. The template will include an opening sentence expressing regret, a brief explanation of the mistake, an assurance that steps have been taken to correct the error, and an apology for any inconvenience caused."
+    },
+    {
+        "instruction": "Identify the category that best describes the movie.",
+        "input": "India's Daughter",
+        "output": "Documentary"
+    },
+    {
+        "instruction": "What is the difference between a regular expression (RegEx) and a wildcard using in programming language?",
+        "input": "",
+        "output": "Regular expressions are a sequence of characters used to match a pattern in a string. They are used to validate and extract information from a string, while wildcards are special characters that represent multiple characters. Wildcards are used in commands and programs to match a group of related characters and can be used to access files and directories in the Operating System."
+    },
+    {
+        "instruction": "Create a special offer for a customer.",
+        "input": "Product: Spirit II E-210 Gas Grill",
+        "output": "Take your grilling experience to the next level with the Spirit II E-210 Gas Grill! For a limited time, when you buy this two-burner, stainless steel gas grill you'll also get a free cover to protect it, as well as a set of BBQ tools for secure, hassle-free grilling. Hurry, this special offer won't last long – get your Spirit II E-210 Gas Grill now!"
+    },
+    {
+        "instruction": "Write a movie review of the movie The Grand Budapest Hotel",
+        "input": "",
+        "output": "The Grand Budapest Hotel is a visual and comedic masterpiece that is sure to be remembered for years to come. Wes Anderson's filmmaking chops and quirkiness provide a unique experience of the story of Monsieur Gustave, a passionate concierge of the titular hotel in the early 1900s. The robust cast is highlighted by strong performances by Ralph Fiennes and Saoirse Ronan, and Anderson's signature color palette and art direction provide a vivid, fun aesthetic. The Grand Budapest Hotel is quirky, full of laughs, and full of heart."
+    },
+    {
+        "instruction": "Generate a sentence using the following words: crocodile, angry, moonlight.",
+        "input": "",
+        "output": "The angry crocodile glistened in the moonlight."
+    },
+    {
+        "instruction": "Find the average cost of a movie ticket in the United States in 2020",
+        "input": "",
+        "output": "According to The National Association of Theatre Owners, the average price of a movie ticket in the United States in 2020 is $9.01."
+    },
+    {
+        "instruction": "Submit a report about the impact of 2020 pandemic on the restaurant industry.",
+        "input": "noinput",
+        "output": "The impact of the 2020 pandemic on the restaurant industry has been significant. Multiple closures due to shutdowns, difficulty in obtaining and maintaining government support, and disruption of supply chains have had a significant and sustained impact on the industry from local retailers to large chains and franchises. During the initial phases of the pandemic, restaurants have been forced to adjust and shift their operations to delivery and curbside pickup, and to utilize technologies such as contactless payment to insure safety of their staff and customers. Meanwhile, increased consolidation, automation of processes, and better access to data have helped them stay afloat. Innovation and creativity have been the cornerstones of survival and growth of many businesses during this period. Restaurants are rethinking the use of technology, delivery, and contactless payment systems, to reduce costs and improve productivity. However, the ultimate outcome and recovery of the restaurant industry is still uncertain as the long-term effects of the pandemic are still being felt."
+    },
+    {
+        "instruction": "Rewrite the sentence in active voice: The study was written by Dr. Susan Smith.",
+        "input": "",
+        "output": "Dr. Susan Smith wrote the study."
+    },
+    {
+        "instruction": "Describe how a photograph can be edited to show a warm atmosphere.",
+        "input": "",
+        "output": "A photograph can be edited to show a warm atmosphere by adjusting the white balance settings to add a warmer cast to the photo, adjusting the color temperature to make the photo appear more orange and yellow, increasing the vibrancy a bit, and increasing the exposure to make the photo seem brighter."
+    },
+    {
+        "instruction": "Name three ways to prevent software bugs.",
+        "input": "",
+        "output": "Three ways to prevent software bugs include 1) writing quality code by utilizing version control and testing systems, 2) thoroughly testing the software after making changes and before releasing to production, and 3) implementing automation for continuous testing."
+    },
+    {
+        "instruction": "Analyze the structure of the following sentence and categorize it into different parts of speech.",
+        "input": "\"The little boy ran through the garden.\"",
+        "output": "The- determiner\nlittle- adjective\nboy- noun\nran- verb\nthrough- preposition \nthe- determiner\ngarden- noun."
+    },
+    {
+        "instruction": "For what kind of activity is the soundtrack of \"Beauty and the Beast\" used?",
+        "input": "",
+        "output": "The soundtrack of \"Beauty and the Beast\" is often used for plays and musical performances, as well as films and television shows."
+    },
+    {
+        "instruction": "Rewrite the sentence to use an appropriate modal verb in place of the italicized word.",
+        "input": "You need to learn how to cook.",
+        "output": "You ought to learn how to cook."
+    },
+    {
+        "instruction": "Write instructions for a recipe for apple crumble.",
+        "input": "",
+        "output": "Apple Crumble Recipe\n\nIngredients:\n\n- 4 Apples (Granny Smith, Golden Delicious, or Honey Crisp work well)\n- 1/2 cup butter\n- 1/2 cup brown sugar\n- 1/2 cup all-purpose flour\n- 1/4 teaspoon ground cinnamon\n- 1/4 teaspoon ground nutmeg\n- 1/4 cup rolled oats\n\nInstructions:\n\n1. Preheat the oven to 350°F.\n2. Peel, core and slice the apples into 1/2 inch thick wedges and place in a 9-inch pie plate.\n3. In a medium bowl, mix together the butter, sugar, flour, cinnamon and nutmeg until crumbly.\n4. Sprinkle the crumbly mixture over the apples.\n5. Sprinkle rolled oats over the top.\n6. Bake for 35-40 minutes or until the top is golden brown.\n7. Allow to cool before serving. Enjoy!"
+    },
+    {
+        "instruction": "Describe the impact of global warming on the environment.",
+        "input": "",
+        "output": "Global warming has had a significant impact on the environment. The Earth’s average temperature has risen substantially, resulting in increased sea levels, extreme weather events, and greater threats to biodiversity. Additionally, climate change has caused acidification of the oceans, changes in soil structure, and a decrease in crop yields. These effects are likely to worsen in the future as temperatures continue to increase due to the accumulation of greenhouse gases in the atmosphere. Furthermore, the effects of global warming can lead to other problems such as population displacement and decreased access to food, water, and other essential resources, causing poverty and ultimately, conflict. Global warming is a pressing issue and requires international cooperation and coordinated efforts to reduce greenhouse gas emissions, increase energy efficiency and renewable energy sources, and protect resources."
+    },
+    {
+        "instruction": "Give a synonym for the adjective \"lucid\".",
+        "input": "",
+        "output": "Clear."
+    },
+    {
+        "instruction": "Name 5 animals from the rainforest.",
+        "input": "",
+        "output": "Monkeys, sloths, jaguars, toucans, parrots."
+    },
+    {
+        "instruction": "Generate a Twitter post about this article.",
+        "input": "WASHINGTON (CNN) -- A wide-open presidential race and a willingness by candidates, interest groups, unions and corporations to buy TV time will lead to historic spending for political and issue-advocacy advertising in the 2008 election cycle, an analysis shows.",
+        "output": "The upcoming presidential election cycle is predicted to bring unprecedented spending on political and issue-advocacy TV ads. #2020Election #PoliticalAdvertising #TVAds"
+    },
+    {
+        "instruction": "Describe how a neural network works.",
+        "input": "",
+        "output": "A neural network is a type of machine learning model that is composed of multiple layers of interconnected neurons (aka \"nodes\") that are organized in an interconnected network. Each node is responsible for taking an input, performing some operations on it, and then outputting a signal. The nodes share the same weights, which are modified over time through a process called training. The nodes then cooperate to solve the task they are given, such as classifying an input or making predictions on new data."
+    },
+    {
+        "instruction": "Create an algorithm that divides a given array of numbers into two sets such that the sum of the elements in each set is the same.",
+        "input": "[5, 10, 15, 20]",
+        "output": "Set 1: [5, 15] \nSet 2: [10, 20] \nAlgorithm:\n1. Create two empty sets, set1 and set2. \n2. Add the first number in the list to set1. \n3. Calculate the sum of the numbers in set1 and set2. \n4. If sum of set1 is less than the sum of set2, add the next number to set 1. If the sum of set1 is greater than the sum of set2, add the next number to set2. \n5. Repeat step 4 until all numbers in the list have been added to one of the sets."
+    },
+    {
+        "instruction": "Identify the context of this conversation",
+        "input": "A: What do we need to do before we can move on to the next step?\nB: We need to get approval from the board.",
+        "output": "The context of the conversation is related to getting approval for a next step in the project."
+    },
+    {
+        "instruction": "Filter the sentiment words from the input sentence",
+        "input": "This movie is fantastic and the music is great",
+        "output": "fantastic, great"
+    },
+    {
+        "instruction": "Detect the spelling mistakes in the following phrase",
+        "input": "A pritty picture.",
+        "output": "The phrase has 1 spelling mistake: \"pritty\" should be \"pretty\"."
+    },
+    {
+        "instruction": "Generate a metaphor to describe the feeling of being anxious.",
+        "input": "",
+        "output": "Anxiety is like a storm brewing inside, waiting to be unleashed and wreak havoc."
+    },
+    {
+        "instruction": "Reword the given sentences to ensure they use inclusive language.",
+        "input": "He or she should be here by now.",
+        "output": "They should be here by now."
+    },
+    {
+        "instruction": "Describe how to use a statistical tool",
+        "input": "A statistical tool such as SPSS",
+        "output": "Using a statistical tool such as SPSS involves several steps. Firstly, you need to prepare your data by organizing it in a usable format. Then, you need to select the suitable statistical analysis that meets your research objectives. Finally, you can use the tools to analyze the data, draw insights and interpret the results to be used in a larger report."
+    },
+    {
+        "instruction": "Read the following poem and explain the message.",
+        "input": "Those who linger in the past\nSad reminders of what will not last",
+        "output": "The poem suggests that it is unwise to cling to the past, as it is a source of sorrow and ultimately transient. The poem encourages one to take the lessons of the past and to move forwards, embracing the future with optimism."
+    },
+    {
+        "instruction": "Explain how a relay works.",
+        "input": "",
+        "output": "A relay is an electromagnetic switch that is used to control a circuit using a low power electrical signal. It works by using an electromagnet to open or close the switch to either allow or block the flow of electricity through the circuit. When the electromagnet is activated by low power electrical signal, it causes the switch to open and allow the electrical current to flow through the circuit, and when the power to the electromagnet is removed, the switch closes and the current can no longer flow."
+    },
+    {
+        "instruction": "Generate a character sketch of a retired boxer.",
+        "input": "",
+        "output": "Michael was a retired boxer in his mid-forties. He had a burly, grizzled frame, with a broad chest and large fists. Despite his massive size, he was surprisingly agile. He had a gruff demeanor and never hesitated to speak his mind, but he was surprisingly gentle and kind when interacting with people. He had a deep respect for the sport of boxing, and a wealth of knowledge to pass down to the younger generations."
+    },
+    {
+        "instruction": "Classify the given text into a given field.",
+        "input": "Relativity Mathematics",
+        "output": "Field: Physics"
+    },
+    {
+        "instruction": "Given a sentence, put it in the interrogative form.",
+        "input": "The students are very concentrated.",
+        "output": "Are the students very concentrated?"
+    },
+    {
+        "instruction": "Produce a definition for the idiom \"a stones throw away\".",
+        "input": "",
+        "output": "A \"stone's throw away\" is a phrase used to describe a location that is very close by; it implies proximity in an informal and colloquial manner.  In literal terms, it means that something is within the distance a person could physically throw a stone.  Figuratively, it is used to describe anything that is close in proximity, either in time, physical space, emotional proximity, or spiritual proximity."
+    },
+    {
+        "instruction": "Write potential job opportunity titles for a professor of language studies.",
+        "input": "",
+        "output": "1. Associate/Full Professor of Applied Language Studies\n2. Chair of Advanced Linguistics\n3. Professor of Language & Culture Studies\n4. Guest Lecturer in Language Acquisition\n5. Faculty-in-Residence in Language & Literature\n6. Director of Instructional Language Technologies\n7. Teaching Fellow in Applied Language & Technology\n8. Research Associate in Language Education\n9. Department Chair of Language & Sociolinguistics\n10. Research Professor of Language & Cognition"
+    },
+    {
+        "instruction": "What strategy would you recommend for a company looking to target a new market?",
+        "input": "",
+        "output": "One important strategy to consider is to understand the needs and preferences of the target market. Companies should research the differences between the current and target markets to understand their customer profiles and preferences. They should also identify and assess the competitive landscape to understand the competitive advantage they can offer. Companies should also identify and use appropriate methods to reach the target market, such as advertising, marketing and communication methods to effectively communicate their message. Additionally, companies should plan to conduct market tests to understand how people respond to their product and service offerings."
+    },
+    {
+        "instruction": "Differentiate the homophones from the given sentences.",
+        "input": "Sheet music and sweet music",
+        "output": "Sheet music refers to music written on paper, while sweet music refers to music with a pleasant sound."
+    },
+    {
+        "instruction": "Give me an equivalent metric measurement for 6 feet",
+        "input": "",
+        "output": "1.83 meters"
+    },
+    {
+        "instruction": "How does physical activity influence mental health?",
+        "input": "",
+        "output": "Physical activity has been linked to multiple mental health benefits. It can help to reduce stress and anxiety, improve mood, increase positive thinking, and help to combat depression. Exercise can also help to clear the mind and improve focus, aiding in problem-solving and supporting creativity. Finally, physical activity can improve self-esteem and self-confidence, enabling individuals to feel more empowered and in control."
+    },
+    {
+        "instruction": "Rename the variables in the equation",
+        "input": "A = 2B + 4",
+        "output": "X = 2Y + 4"
+    },
+    {
+        "instruction": "Conduct a survey to find out what people think of the new iPhone.",
+        "input": "",
+        "output": "I conducted an online survey to find out what people think of the new iPhone. Out of the 500 people who participated in the survey, 80% said that they were extremely satisfied with the performance. 6% said that the phone was great but too expensive. The remaining 14% said that the phone had too many features and wasn't user-friendly."
+    },
+    {
+        "instruction": "Compose a song with the following lyrical concepts.",
+        "input": "Resilience, Sea, Discovery",
+        "output": "Verse 1:\nEncountering the raging sea\nThe wave of life beats against me\nIt’ll take more than I thought to keep me together\nI have to be resilient, so I don’t surrender\n\nChorus:\nOh, I'm on the journey of discovery\nRiding the wave with resilience\nA tale of courage beyond what I knew\nI must keep going on this journey to discover me\n\nVerse 2:\nVoices in the wind singing a song\nOf tales of courage, a new dawn\nNo matter how far I travel or how high I go\nThe songs of courage keep empowering me so\n\nChorus:\nOh, I'm on the journey of discovery\nRiding the wave with resilience\nA tale of courage beyond what I knew\nI must keep going on this journey to discover me\n\nBridge:\nAnd though the sea's a choppy shore\nI can still reach the distant shore\nMy courage holds true, my spirit runs free\nResiliance will guide me relentlessly\n\nChorus:\nOh, I'm on the journey of discovery\nRiding the wave with resilience\nA tale of courage beyond what I knew\nI must keep going on this journey to discover me."
+    },
+    {
+        "instruction": "Name a popular Japanese comfort food.",
+        "input": "",
+        "output": "Omurice is a popular Japanese comfort food, consisting of an omelette filled with rice and topped with ketchup."
+    },
+    {
+        "instruction": "Give me a futuristic description of space travel",
+        "input": "",
+        "output": "Space travel in the future will be seamless, with warp engines allowing for faster than light travel, automated modules for living, and technologies allowing for telepathy-level communication across vast distances. Colonies will be created and new worlds will be explored, opening up possibilities for those seeking new adventures."
+    },
+    {
+        "instruction": "Design a table to store the information about floral sets.",
+        "input": "Floral Sets have 6 elements (Name, Image, Type, Colour of Flower, Occasion and Price).",
+        "output": "Table: Floral Sets\n\nColumns: \nName | Image | Type | Colour of Flower | Occasion | Price\n-----|-------|------|------------------|----------|------"
+    },
+    {
+        "instruction": "What does the color green symbolize?",
+        "input": "",
+        "output": "Green is often associated with nature, life, growth, and renewal. It is also associated with prosperity, wealth, and banking. In the psychology of color, green can represent balance, peace, and harmony. In some cultures, it can represent growth, fertility, and agriculture as well."
+    },
+    {
+        "instruction": "Is this technology more suitable for large enterprises or small businesses?",
+        "input": "Technology: Cloud Computing",
+        "output": "Cloud computing is suitable for both large enterprises and small businesses, depending on the specific needs of the organization. For large enterprises, the cloud provides scalability and increased efficiency in managing large amounts of data. For small businesses, cloud computing can provide greater flexibility and cost savings. Moreover, cloud-based solutions allow businesses to access resources from anywhere and at any time, making them more accessible than traditional on-site solutions."
+    },
+    {
+        "instruction": "Categorize the following sentence as either an observation, inference, or evaluation",
+        "input": "That movie was terrible.",
+        "output": "Evaluation"
+    },
+    {
+        "instruction": "Name one tool used by biologists.",
+        "input": "",
+        "output": "Microscope."
+    },
+    {
+        "instruction": "Describe why artificial intelligence is important.",
+        "input": "",
+        "output": "Artificial intelligence (AI) has the potential to revolutionize the way we interact with technology. AI's capabilities include recognizing patterns, making decisions, and performing tasks with greater efficiency than humans. AI also allows us to improve processes and uncover trends in large amounts of data that would be too complex or tedious to analyze manually. AI has become especially important as it expands its use in industries such as healthcare, transportation, and finance."
+    },
+    {
+        "instruction": "Describe three web browsers.",
+        "input": "",
+        "output": "Google Chrome is a popular web browser that is fast and secure. It has many features such as the ability to synchronize bookmarks, passwords, and browsing history across multiple devices. Mozilla Firefox is another popular web browser that is fast, secure, and open-source. It has a range of features such as built-in privacy protection, advanced tab management, and a modern user interface. Finally, Safari is a web browser from Apple that is secure, efficient, and easy to use. It has a range of features such as intuitive design and fast performance."
+    },
+    {
+        "instruction": "Write a descriptive phrase to describe a rainy day.",
+        "input": "",
+        "output": "The sky was a dull grey, with a heavy curtain of rain obscuring the world."
+    },
+    {
+        "instruction": "Label each of the given pieces of data as either \"discrete\" or \"continuous\".",
+        "input": "Height",
+        "output": "Continuous"
     }
 ]

@@ -8,7 +8,7 @@ test_output_file = './data/alpaca_test.json'
 with open(input_file, 'r', encoding='utf-8') as f:
     data = json.load(f)
 
-subset_size = 200
+subset_size = 1000
 subset = random.sample(data, subset_size)
 
 test_ratio = 0.1
