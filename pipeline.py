@@ -4,10 +4,12 @@ from transformers import (
     AutoModelForCausalLM,
     Trainer,
     TrainingArguments,
-    DataCollatorForLanguageModeling
+    DataCollatorForLanguageModeling,
 )
 from datasets import load_dataset
 from peft import get_peft_model, LoraConfig
+import evaluate
+bleu = evaluate.load("bleu")
 
 class SFTPipeline:
 
@@ -27,19 +29,29 @@ class SFTPipeline:
     def build_tokenizer(self):
         tokenizer = AutoTokenizer.from_pretrained(self.MODEL_NAME)
         if tokenizer.pad_token is None:
-            tokenizer.add_special_tokens({'pad_token': 'ruptedException'})
-        if tokenizer.eos_token is None:
-            tokenizer.add_special_tokens({'eos_token': '</s>'})
+            tokenizer.pad_token = tokenizer.eos_token
         self.tokenizer = tokenizer
     
-    def build_model(self, use_lora=True):
-        model = AutoModelForCausalLM.from_pretrained(self.MODEL_NAME, torch_dtype=torch.float32)
+    def build_model(self, quantized=False, use_lora=False):
+        model = AutoModelForCausalLM.from_pretrained(
+            self.MODEL_NAME,
+            torch_dtype=torch.float32
+        )
         model.resize_token_embeddings(len(self.tokenizer))
+        
+        # if quantized:
+        #     model.to("cpu")
+        #     model = torch.quantization.quantize_dynamic(
+        #         model,
+        #         {torch.nn.Linear},
+        #         dtype=torch.qint8
+        #     )
+        
         if use_lora:
             lora_config = LoraConfig(
                 r=4,
                 lora_alpha=16,
-                target_modules=["c_attn"],
+                target_modules=["c_attn", "c_proj"],
                 lora_dropout=0.1,
                 bias="none",
                 task_type="CAUSAL_LM"
@@ -56,24 +68,24 @@ class SFTPipeline:
             response=response
         )
     
-    def predict(self, instruction, input_text="", max_new_tokens=100, temperature=0.7, top_p=0.9, top_k=50, no_repeat_ngram_size=3):
+    def predict(self, instruction, input_text=""):
         prompt = self.format_prompt(instruction, input_text, response="")
         encoded = self.tokenizer(prompt, return_tensors="pt")
         input_ids = encoded["input_ids"].to(self.model.device)
         attention_mask = encoded["attention_mask"].to(self.model.device)
-        prompt_length = input_ids.shape[-1]
-        
+
         outputs = self.model.generate(
             input_ids,
             attention_mask=attention_mask,
-            max_new_tokens=max_new_tokens,
-            temperature=temperature,
-            top_p=top_p,
-            top_k=top_k,
-            no_repeat_ngram_size=no_repeat_ngram_size,
+            max_new_tokens=50,
+            temperature=0.7,
+            top_p=0.9,
+            top_k=50,
+            do_sample=True,
+            no_repeat_ngram_size=3,
             early_stopping=True
         )
-        outputs = self.tokenizer.decode(outputs[0][prompt_length:], skip_special_tokens=True)
+        outputs = self.tokenizer.decode(outputs[0], skip_special_tokens=True)
         return outputs
     
     def build_dataset(self, paths):
@@ -99,7 +111,7 @@ class SFTPipeline:
                 prompts,
                 truncation=True,
                 padding=True,
-                max_length=256,
+                max_length=128,
                 return_tensors=None
             )
             
@@ -116,27 +128,38 @@ class SFTPipeline:
             )
         
         self.dataset = dataset
-    
-    def train(self, num_epochs=3, batch_size=4):
-        self.data_collator = DataCollatorForLanguageModeling(
-            tokenizer=self.tokenizer,
-            mlm=False
-        )
         
+    def compute_metrics(self, eval_pred):
+        predictions, labels = eval_pred
+        if predictions.ndim > 2:
+            predictions = predictions.argmax(axis=-1)
+        labels[labels == -100] = self.tokenizer.pad_token_id
+        predictions = self.tokenizer.batch_decode(predictions, skip_special_tokens=True)
+        labels = self.tokenizer.batch_decode(labels, skip_special_tokens=True)
+        bleu_score = bleu.compute(predictions=predictions, references=[[label] for label in labels])
+        return {"bleu": bleu_score["bleu"]}
+    
+    def train(self, num_epochs=1, batch_size=4):
         training_args = TrainingArguments(
             output_dir='./ckpts',
             per_device_train_batch_size=batch_size,
             num_train_epochs=num_epochs,
-            logging_steps=25,
+            logging_steps=50,
             save_steps=100,
             fp16=False,
-            save_total_limit=2
+            save_total_limit=2,
+            evaluation_strategy="steps",
+            eval_steps=50  
         )
-        self.trainer = Trainer(
+        
+        trainer = Trainer(
             model=self.model,
             args=training_args,
             train_dataset=self.dataset["train"],
+            eval_dataset=self.dataset["test"], 
             tokenizer=self.tokenizer,
-            data_collator=self.data_collator,
+            data_collator=DataCollatorForLanguageModeling(self.tokenizer, mlm=False),
+            compute_metrics=self.compute_metrics
         )
-        self.trainer.train()
+        
+        trainer.train()

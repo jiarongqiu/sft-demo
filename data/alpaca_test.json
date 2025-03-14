@@ -1,252 +1,252 @@
 [
     {
-        "instruction": "Analyze how the scientific method can be used to solve difficult problems.",
+        "instruction": "Given the following input, classify the sentiment of the text as either positive, negative, or neutral.",
+        "input": "The weather is cloudy and the temperature is cool.",
+        "output": "Neutral"
+    },
+    {
+        "instruction": "Describe leisure activities people can do before TV.",
         "input": "",
-        "output": "The scientific method is a process of testing hypotheses and exploring solutions to an issue. It involves forming questions, conducting research, and constructing hypotheses that can be tested. Once hypotheses have been generated, they can be tested in a controlled environment, such as a laboratory setting, or in real-world scenarios. Data acquired from testing is used to refine and extend the initial hypotheses. The process is repeated as necessary until a satisfactory solution to the problem is reached. The scientific method can be used to solve difficult problems by applying its rigorous and systematic approach to gathering evidence and exploring data-driven solutions."
+        "output": "Before the invention of television, people typically spent their leisure time reading, playing games, fishing, going for walks, or engaging in hobbies such as sewing and crochet."
     },
     {
-        "instruction": "Create a function to calculate the mean of an array.",
+        "instruction": "Explain how to paint a room.",
         "input": "",
-        "output": "function findMean(array) {\n  let sum = 0;\n  for (let i=0; i<array.length; i++) {\n    sum += array[i];\n  }\n  return sum/array.length;\n}"
+        "output": "To paint a room, start by clearing the room and covering furniture and floors in drop cloths. Then, wash down the walls and let them dry. Next, use masking tape to tape up trim, windows, and doors. After the areas are taped, apply an even coat of primer or sealer with a roller or paintbrush. Allow the primer or sealer to dry, then apply a coat of paint. Make sure to use an even, overlapping stroke when painting. Once the first coat is dry, apply a second coat if needed. Finally, remove the o tape, let the paint dry, and enjoy your newly painted room."
     },
     {
-        "instruction": "Describe the meaning of the proverb \"Time is money\".",
+        "instruction": "Describe how to tie a bowtie.",
         "input": "",
-        "output": "The proverb \"Time is money\" implies that one's time is a valuable asset and should be spent wisely, as it has an intrinsic economic value. It suggests that people should use their time efficiently and productively, as wasting time is akin to spending money and being wasteful in other economic matters."
+        "output": "Tying a bow tie requires four steps. Begin by wrapping one side of the bow tie around your neck, with the two ends of the tie hanging down. Overlap the left side of the tie over the right, so the right end extends slightly further. Then, turn the right end up and over your left chin, and loop it down around your neck. Finally, loop the left end over the right, and bringing the end of the bow tie up and over the back of the right loop, creating a symmetrical knot. Tighten and adjust the knot, and you are done!"
     },
     {
-        "instruction": "Generate a list of advantages and disadvantages for given product.",
-        "input": "Product: Streaming Services",
-        "output": "Advantages: \n1. Convenience - Can access content from anywhere with internet connection.\n2. Affordability - Pay-per-view or subscription model allows for budget-friendly entertainment.\n3. Variety - Abundance of movies, shows, and music available.\n4. Quality - HD streaming capabilities with no buffering.\n\nDisadvantages:\n1. Limited Availability - Not all content available in all countries. \n2. Low Quality - Lower quality streaming of some content may be available.\n3. Variable Connection Speeds - Lower connection speeds may cause buffering or degraded video and audio quality.\n4. Dependent on Subscription - Need to subscribe to certain services to access certain content."
-    },
-    {
-        "instruction": "Write a short story about a person who can transform into an animal.",
+        "instruction": "Generate a list of options for a customer satisfaction survey.",
         "input": "",
-        "output": "Once upon a time, there was a person named Asha who had the unique power to transform into any animal she wished. Every morning, she turned into a wolf and ran around the city before turning back into a human. Asha was fascinated by the different abilities each animal had and enjoyed discovering new things. One day, she stumbled upon a mysterious dark cave and decided to explore it as a wolf. As she ventured further into the cave, she began to feel the power of transformation leave her. When she emerged, she was no longer a wolf, but an eagle. She soared over her city, seeing the world in a new and amazing way. From that day on, she embraced her newfound power and used it to explore the world."
+        "output": "Options for a customer satisfaction survey include:\n1. Overall satisfaction\n2. Ease of use\n3. Customer service responsiveness\n4. Quality of product/service\n5. Follow-up and support\n6. Value for money\n7. Recommend to a friend"
     },
     {
-        "instruction": "Describe in detail the process of creating an API.",
+        "instruction": "Generate a song title.",
         "input": "",
-        "output": "Creating an API involves several steps. First, the API must be designed to meet the needs and expected use-cases. This includes mapping out data structures, endpoints, and expected interactions between clients and the API. Next, the API data and operations must be exposed with the proper URL schema, HTTP methods, and API verbs. This information should be laid out in a well-defined API specification or documentation. After the API has been designed it must be implemented on a development or production-ready server, depending on the user’s needs. This requires configuring the server environment and applying the appropriate security measures for any data or operations normally exposed to the public. Finally, the API must be tested to ensure both functional and non-functional requirements are met. This includes testing every endpoint and automated testing of certain scenarios and edge cases. Once the tests have been completed the API can be deployed and released to the public."
+        "output": "\"Music of the Night\""
     },
     {
-        "instruction": "Make a list of 5 activities to do during the weekend.",
+        "instruction": "Make a one-sentence summarization of the poem below.",
+        "input": "The calm, sheer beauty of the night\nThe shadows dance in the soft candlelight\nThe stars above all twinkle and shine\nResting ever so serenely in line",
+        "output": "The beauty of the night sky is depicted with dancing shadows, twinkling stars in peaceful serenity."
+    },
+    {
+        "instruction": "Generate a list of 5 adjectives that are associated with ice cream.",
         "input": "",
-        "output": "1. Go for a hike\n2. Visit a museum\n3. Have a picnic\n4. Watch a movie\n5. Read a book"
+        "output": "1. Creamy\n2. Sweet\n3. Refreshing\n4. Delicious\n5. Succulent"
     },
     {
-        "instruction": "Given the following context, create a hypothetical customer service conversation.",
-        "input": "A customer has asked to change their account password.",
-        "output": "Customer: I would like to change my password.\n\nCustomer Service Representative: Certainly. What would you like your new password to be? \n\nCustomer: I would like to set my new password to \"password123\"\n\nCustomer Service Representative: Alright, your password has been successfully changed to \"password123\". Is there anything else I can help you with? \n\nCustomer: No, that's it. Thank you. \n\nCustomer Service Representative: You're welcome! Have a great day."
-    },
-    {
-        "instruction": "Describe the effect of technology on work/life balance.",
+        "instruction": "Compare the advantages and disadvantages of using neural networks for natural language processing",
         "input": "",
-        "output": "Technology has had a profound effect on work/life balance. With the advent of the internet and mobile devices, workers are increasingly able to work remotely and have greater access to their jobs and colleagues outside of traditional office hours. This has the potential to greatly increase the amount of time and energy that individuals are able to dedicate to their job, making it more difficult to properly unplug and relax. Moreover, the instant availability of information and resources can make it difficult to completely escape from work obligations. While technological advancements can have many positive benefits, it is important to be mindful of the impact it can have on work/life balance."
+        "output": "Advantages of using neural networks for natural language processing include their ability to learn and store information, their accuracy in understanding language semantics, their ability to recognize patterns, and their relatively low computational cost. Disadvantages of neural networks for natural language processing include their black box nature, the need for large datasets for training, and their relatively slow training time."
     },
     {
-        "instruction": "Identify the tone of the following sentence: We had a great time at the party",
+        "instruction": "Make a list of five adjectives that describe the words in the sentence.",
+        "input": "The velvet curtains hung gracefully from the windows.",
+        "output": "Luxurious, sumptuous, elegant, soft, beautiful."
+    },
+    {
+        "instruction": "Provide examples of three common types of layout in websites.",
         "input": "",
-        "output": "The tone of the sentence, \"We had a great time at the party\" is positive and cheerful."
+        "output": "Common types of layout in websites include vertical stacked layout, grid-based layout and magazine-style layout. Vertical stacked layout organizes content in a vertical linear way to maximize the use of the visible space. Grid-based layout, on the other hand, is characterized by its use of equal-sized rectangular boxes which facilitate the efficient organization of content. Magazine-style layout is based on traditional newspaper design which features multiple columns, large headline images and captivating visuals."
     },
     {
-        "instruction": "Pick two river systems, compare and contrast one physical element of them.",
-        "input": "River Systems: The Amazon, The Nile",
-        "output": "The Amazon and the Nile are two of the world's longest and most iconic rivers. In terms of size, the Amazon is much larger than the Nile, with the Amazon River estimated to be about 4,000 miles long compared to the Nile, which is about 4,258 miles long. The Amazon also has a much larger watershed, draining an area of over 7 million square miles compared to the Nile's 3.4 million square miles. In terms of temperature, the Amazon also has a much higher average temperature, between 75 and 77°F compared to the Nile, which hovers around 77°F. Finally, the Amazon is much deeper than the Nile, reaching depths over 200 feet at its deepest point, while the Nile averages 20 to 30 feet in depth."
+        "instruction": "Develop a systemfor allocating resources on a limited budget",
+        "input": "The system needs to cover 100 people and allocated $1000 budget",
+        "output": "A system that allocates resources on a limited budget must consider the needs of each individual, as well as the total budget. A cost-benefit analysis can be implemented to determine the optimal allocation of resources. First, the needs of each individual should be determined. This can be done by asking individual questions and assessing the responses. Then, the budget should be divided among the individuals in a manner that maximizes the total utility, considering both the individual needs and the total budget."
     },
     {
-        "instruction": "Find the correctly spelled word.",
-        "input": "thier",
-        "output": "their"
-    },
-    {
-        "instruction": "Brainstorm some creative ways to celebrate someone's milestone birthday.",
+        "instruction": "How does the hydrogen atom react to an electric field?",
         "input": "",
-        "output": "1. An outdoor movie night: Rent a projector and a large outdoor screen, and invite your friends to join in the celebration with their favorite snacks and drinks.\n2. An outdoor picnic: Set up a picnic table in your backyard or favorite park and decorate it with balloons and streamers. Ask your guests to bring their favorite appetizers, mains and drinks to share with everyone.\n3. A dance party: Rent an outdoor disco tent and dance floor, and hire a DJ to play their favorite music.\n4. A game night: Create custom trivia quiz or game night party with questions about the person's life and interests. \n5. An online celebration: Ask your friends to send a video or write a card with their best wishes and memories, which can be shared together online."
+        "output": "The hydrogen atom will experience a force in the direction of the electric field. This will cause the electron orbiting the nucleus to accelerate, changing its path and energy state and producing an electric dipole within the atom."
     },
     {
-        "instruction": "How can we combat climate change?",
+        "instruction": "Describe the symptoms of the given medical condition",
+        "input": "Measles",
+        "output": "Measles is a highly contagious respiratory illness that causes fever, runny nose, cough, and a characteristic red rash. It is typically accompanied by additional symptoms such as sore throat, inflamed eyes, headache, and muscle pain."
+    },
+    {
+        "instruction": "Create a list of questions to ask an interviewer when applying for a media job",
         "input": "",
-        "output": "There are many steps that individuals and governments can take to combat climate change. These include focusing on methods of renewable energy production, setting up policies that encourage sustainable consumption, investing in reforestation and carbon capture, and creating incentives for businesses to reduce their emissions.  In addition, taking individual action to reduce consumption of fossil fuels and reduce waste can also help to reduce the effects of climate change."
+        "output": "1. What is the company culture like?\n2. What will my responsibilities include?\n3. What does success in this role look like? \n4. Is there room for growth and development? \n5. What is the current scope of the team and organization?\n6. What kind of training opportunities are offered?\n7. How would you describe the most important qualities of this position? \n8. What is the next step in the application process?"
     },
     {
-        "instruction": "Arrange a meeting between the marketing team and the sales team.",
+        "instruction": "Suggest three techniques for improving online learning",
         "input": "",
-        "output": "I suggest arranging a meeting between the marketing team and the sales team. The meeting should take place in a virtual format to ensure everyone’s safety and the team can discuss strategies for improving customer relations and increasing sales. The meeting should include introduction of the teams, an overview of current strategies, and a discussion period to brainstorm ideas on how to improve."
+        "output": "1. Utilize multimedia: Use videos, audio, images, and other visual elements to hold students' attention and keep them engaged in the learning process.\n2. Allow for collaborative learning: Encourage students to work with one another on assignments or activities that require collaboration.\n3. Incorporate gamification: Introduce elements of gaming and competition into online courses, such as rewards and leaderboards, to motivate students and increase engagement."
     },
     {
-        "instruction": "Modify the following code to print the second highest value in the list.",
-        "input": "list1 = [18, 23, 9, 55, 2]\nprint(max(list1))",
-        "output": "list1 = [18, 23, 9, 55, 2]\nlist1.remove(max(list1))\nprint(max(list1))"
-    },
-    {
-        "instruction": "Join two separate sentences into a compound sentence.",
-        "input": "He was late. He missed the meeting.",
-        "output": "He was late and missed the meeting."
-    },
-    {
-        "instruction": "Create a top-down outline for writing a logical argument.",
+        "instruction": "Create a list of five ingredients needed to bake a cake",
         "input": "",
-        "output": "A top-down outline for writing a logical argument includes the following: \n1. Introduction: provide a clear statement of the position or argument to be summarized. \n2. Body: provide evidence, facts, and figures to support the argument.\n3. Premises: present the premises upon which the argument is based and provide reasoning to explain the relationship between the premises and the conclusion. \n4. Objections: anticipate and address potential counter-arguments and objections, refuting them with evidence.\n5. Conclusion: restate the argument and summarize the main points of the outline."
+        "output": "To bake a cake, you will need the following ingredients: flour, sugar, butter, eggs, and baking powder."
     },
     {
-        "instruction": "Formulate a question that can be used to trigger the given answer.",
-        "input": "I want to watch a movie.",
-        "output": "What movie do you want to watch?"
+        "instruction": "How would you improve the following marketing slogan?",
+        "input": "We make the best products.",
+        "output": "Discover the best products with us."
     },
     {
-        "instruction": "Estimate the total cost of a package that weighs 5 kilograms and has a shipping cost of $50.",
-        "input": "5 kilograms, $50",
-        "output": "The estimated total cost of the package is $55."
-    },
-    {
-        "instruction": "Provide a simple explanation of the following term",
-        "input": "Artificial Intelligence",
-        "output": "Artificial Intelligence (AI) is the ability of computer programs or machines to think and learn, often mimicking the way people think. AI can be used to create solutions to difficult problems and automate tasks."
-    },
-    {
-        "instruction": "What could be done to reduce traffic congestion?",
+        "instruction": "What is the definition of \"alea iacta est\"?",
         "input": "",
-        "output": "One way to reduce traffic congestion is by increasing public transportation options such as buses and subways, as well as encouraging telecommuting and carpooling. There are also traffic-management strategies such as traffic calming and intelligent traffic system that can reduce congestion. Additionally, cities should incentivize smart growth with policies that focus on providing greater housing and job opportunities in areas near public transportation networks."
+        "output": "Alea iacta est is a Latin phrase attributed to Julius Caesar, which translates to \"the die has been cast\". It is used to signify that a decision has been made and cannot be reversed."
     },
     {
-        "instruction": "Create a web design for a shoe e-commerce website.",
+        "instruction": "Summarize the key points of the constitutional amendment process in the United States.",
         "input": "",
-        "output": "For the design of the website, simple color schemes and font types should be selected. A clear navigation bar should be provided at the top of the page to facilitate navigation. Product pages should feature product images, product descriptions, and relevant customer reviews and ratings. There should also be a shopping cart feature, where the user can add items and view the total cost. A search function should be included to allow users to easily search for a product. Finally, an easy checkout page should be provided complete with secure payment options."
+        "output": "The constitutional amendment process in the United States is a two-step process. The first step is a proposal of an amendment to the Constitution by two-thirds of both houses of Congress or by two-thirds of the state legislatures. The second step is ratification of the amendment by three-fourths of the state legislatures or conventions in three-fourths of the states. Once an amendment is proposed and ratified, it becomes part of the US Constitution and is legally binding for all US citizens."
     },
     {
-        "instruction": "Come up with an activity to help an 8-year-old learn geography.",
+        "instruction": "Given a word, classify it as a noun, verb, adjective, or adverb.",
+        "input": "Quick",
+        "output": "Adjective"
+    },
+    {
+        "instruction": "Generate 5 adjectives to describe a TV show.",
         "input": "",
-        "output": "A great way to teach an 8-year-old geography is by creating a globe scavenger hunt. Start by having the child locate and identify the continents on the globe and list the countries in each continent. Then create a list of questions about each continent, such as the capital city of each country and important geographical features. The child can answer the questions by looking at the globe and finding the answers."
+        "output": "Engaging, imaginative, captivating, suspenseful, and visually stunning."
     },
     {
-        "instruction": "Explain the cause of the dust bowl in the 1930s.",
+        "instruction": "Generate a password that includes 2 special characters and 2 digits.",
         "input": "",
-        "output": "The dust bowl in the 1930s was caused by a combination of natural factors and human activity. During this period, the central Great Plains region experienced a prolonged drought, which contributed to the spread of dust storms. This drought was made worse by farmers plowing the land too deeply and over-irrigating their crops, which destabilized the soil and led to wind erosion. This combination of natural and human factors led to the dust bowl and its devastating effects."
+        "output": "@7*%i1#"
     },
     {
-        "instruction": "Describe the impact of visual storytelling on marketing campaigns.",
+        "instruction": "Edit this sentence to make it more concise: \"Many students have managed to graduate from college despite the fact that they are struggling financially.\"",
+        "input": "Many students have managed to graduate from college despite the fact that they are struggling financially.",
+        "output": "Many students have graduated college despite financial struggles."
+    },
+    {
+        "instruction": "Generate a list of out-of-the-box anniversary gift ideas for a couple.",
         "input": "",
-        "output": "Visual storytelling has revolutionized the way marketers engage with their audiences. Integrating visuals into marketing campaigns helps to convey emotions and information in a powerful and concise way. The use of images, videos, and other forms of visual media can effectively drive engagement and connections, strengthen brand identity and messaging, and create memorable experiences for audiences."
+        "output": "- Dinner at a new restaurant in town \n- Hire a photographer for a date night photoshoot \n- Plan a weekend getaway to a romantic spot \n- Recreate their first date \n- Take a cooking class together\n- Surprise them with a home spa night\n- Take a dance class \n- Have a picnic at a chosen spot\n- Get tickets to a live event together\n- Visit a place they have always wanted to go \n- Go stargazing or take a night hike \n- Do a wine tasting or craft beer tour \n- Drive to a nearby destination for the day \n- Write a love letter for each other \n- Give a personalized photo album \n- Buy a board game or jigsaw puzzle \n- Take a helicopter tour \n- Take a road trip \n- Make a photo collage of your memories together\n- Get tickets to a virtual escape room experience"
     },
     {
-        "instruction": "What is the blockchain",
+        "instruction": "How could the government improve access to education?",
         "input": "",
-        "output": "The blockchain is a secure, distributed database technology that records and stores information distributed across a network of computers. It is decentralized, meaning no single authority manages it, and as such allows for trustless or peer-to-peer transactions to occur. Information stored on the blockchain is immutable, as it is secured with sophisticated cryptographic algorithms and techniques, making it impossible to be faked or altered. It is also transparent, as all changes to the blockchain are public records that can be tracked and verified by anyone."
+        "output": "There are several ways that the government may improve access to education. One way is to provide financial aid to students who cannot afford tuition and living expenses. This could be done through grants, loans, and scholarships. The government could also provide free or discounted textbooks and materials to students, and encourage colleges and universities to waive fees or admissions criteria. Additionally, the government could invest in better technology in classrooms to enhance the educational experience for all students."
     },
     {
-        "instruction": "Evaluate a given paper with a score between 0 and 10.",
-        "input": "The paper “The Impact of AI on Education” by Janet Smith and Tom Williams.",
-        "output": "I would give this paper a score of 8. It provided an interesting overview of the current applications of AI in the educational space, as well as addressing potential challenges and opportunities."
+        "instruction": "Identify what type of relationship exists between two items.",
+        "input": "X-ray and Scan",
+        "output": "X-ray and Scan are both medical imaging procedures used to create a visual representation of the body. The difference between them is that an X-ray uses radiation to create the image, while a Scan uses sound waves."
     },
     {
-        "instruction": "Assign the following article a rating out of five",
-        "input": "This article discusses the various psychological implications of participating in violent video games.",
-        "output": "Rating: 3/5"
+        "instruction": "Create a tweet promoting the given product.",
+        "input": "A new torch light",
+        "output": "Looking for the perfect night light for camping? Look no further! Our new torch light is light weight and easy to use, perfect for all your outdoor adventures! #torchlight #outdooradventures #camping"
     },
     {
-        "instruction": "Provide 5 characteristics of a snow leopard.",
+        "instruction": "Determine the closest word to the given word.",
+        "input": "Big",
+        "output": "Large"
+    },
+    {
+        "instruction": "Write a query for returning all the countries in Africa.",
         "input": "",
-        "output": "The snow leopard is a large cat with some distinct features. They have thick fur that is a combination of white and light grey with black spots. They also have long tails, big paws, and powerful hind legs that help them to leap up to 9 meters in length and 3 meters in height. They are excellent climbers and use their furry tails as a counterbalance when walking on uneven terrain. Snow leopards are also shy and solitary animals, rarely venturing out of their natural habitat."
+        "output": "SELECT name \nFROM countries \nWHERE continent = 'Africa'"
     },
     {
-        "instruction": "Construct a valid SQL query to update data in a table.",
-        "input": "Table Name: users\nColumn Names: user_id, age",
-        "output": "UPDATE users SET age = 35 WHERE user_id = 1;"
+        "instruction": "Summarize the following article about climate change in three sentences:",
+        "input": "Global warming is the long-term heating of Earth's climate system observed since preindustrial times and its predicted continuation. The main cause of the warming is increasing emissions of gases such as carbon dioxide and methane into the atmosphere.",
+        "output": "Earth's climate is warming at an alarming rate due to increased emissions of greenhouse gases. This is causing extreme weather events, which will only worsen unless drastic steps are taken to reduce emissions. Climate change is a global issue that requires collective action from all countries and individuals."
     },
     {
-        "instruction": "Write a warning label for a tool.",
+        "instruction": "Generate a conversation between two characters by explaining the following statement.",
+        "input": "Sam was feeling very guilty because he knew he was wrong.",
+        "output": "Sam: \"I know I was wrong. I feel so guilty.\"\n\nEmily: \"Why do you feel guilty? What happened?\"\n\nSam: \"I did something that I knew was wrong and now I'm feeling really bad about it.\"\n\nEmily: \"It's ok. We all make mistakes sometimes. You just have to learn from it and move on.\""
+    },
+    {
+        "instruction": "Describe a scenario where someone could be accused of plagiarism.",
         "input": "",
-        "output": "Warning: Before using this tool, make sure to wear the protective eyewear and clothing to protect yourself from any debris or projectiles. Also, make sure to read over all instructions for this item before use."
+        "output": "Someone could be accused of plagiarism if they copy text directly and claim it as their own work, or if they present ideas which were taken from someone else without providing any citations or attributions."
     },
     {
-        "instruction": "Given the input, edit the text to make it sound more formal and professional.",
-        "input": "Hi there,\n\nWe discussed the project earlier and I think it would be a great fit for us.",
-        "output": "Hello,\n\nWe previously discussed the project and I believe it will be an excellent choice for our company."
+        "instruction": "Given two numbers, generate a mathematical equation that yields their difference as a result.",
+        "input": "6, 3",
+        "output": "6 - 3 = 3"
     },
     {
-        "instruction": "Name a sport that is played using a ball",
+        "instruction": "Generate a different word for the given word, but with similar meaning.",
+        "input": "Anger",
+        "output": "Rage"
+    },
+    {
+        "instruction": "Create a list of potential strategies to improve customer service.",
         "input": "",
-        "output": "There are many different sports that involve playing with a ball, including football, basketball, tennis, volleyball, rugby, cricket, and golf."
+        "output": "1. Train and educate customer service staff on customer service best practices.\n2. Assess customer service needs through surveys and feedback.\n3. Set clear service standards and response times.\n4. Implement customer service automation tools to streamline customer service processes.\n5. Invest in customer relationship management software.\n6. Offer customers personalized service.\n7. Develop a customer loyalty program.\n8. Implement self-service customer service options.\n9. Provide customer service agents with the autonomy to make decisions.\n10. Host customer service workshops and webinars."
     },
     {
-        "instruction": "Estimate how much time it will take to finish the project.",
-        "input": "Project involves coding, UI design and analysis.",
-        "output": "It will likely take between 3-5 weeks to complete the project depending on the complexity of the coding, the complexity of the analysis, and the skill level of the UI designer."
-    },
-    {
-        "instruction": "Suggest a set of rules for a classroom.",
+        "instruction": "Explain what is genetic engineering",
         "input": "",
-        "output": "1. Respect the teacher’s authority and speak at a respectful volume that does not disrupt other students.\n2. Always come to class prepared with the appropriate materials and be on time.\n3. Do not use inappropriate language or behavior in the classroom.\n4. Listen to the teacher and respect their opinions.\n5. No food, drinks, or electronic devices are allowed in the classroom unless expressly allowed by the teacher.\n6. No talking while the teacher is teaching.\n7. It is important to stay on task and not distract other students.\n8. Each student is responsible for their own learning and should ask questions if they need clarification on something.\n9. It’s important to stay engaged and participate in activities throughout the class.\n10. Show respect to other students by not distracting them or speaking out without being called upon.\n11. Work together with classmates and treat each other with respect.\n12. Respect the boundaries of personal space.\n13. After the teacher dismisses the class, students should remain until the teacher leaves the room."
+        "output": "Genetic engineering is the use of biotechnology to alter the genetic material of living organisms to produce desirable traits or characteristics. It is done by manipulating the genes of an organism to express a desired trait and is used in the medical, agricultural, and industrial fields."
     },
     {
-        "instruction": "Rewrite the following sentence to create a negation.",
-        "input": "It was clear that he was wrong.",
-        "output": "It was not clear that he was right."
-    },
-    {
-        "instruction": "What are the steps involved in implementing a successful digital marketing strategy?",
+        "instruction": "Create five example sentences using the word “synthesis.”",
         "input": "",
-        "output": "A successful digital marketing strategy involves several steps. Firstly, you need to identify who your target audience is and what their needs are. Next, you need to research the different digital platforms available and select the ones that have the potential to reach your target audience. After that, you need to create relevant content for these platforms and focus on building an engaging presence. Finally, you need to track, measure, and analyze the results of your campaigns in order to refine your strategy."
+        "output": "1. Cooking is the synthesis of ingredients to create a delicious meal.\n2. After researching the topic, John was able to synthesize his findings into a comprehensive report. \n3. During the synthesis of two chemicals, an unexpected reaction occurred.\n4. The researchers intended to present a synthesis of their findings at the conference.\n5. Reading is a synthesis of ideas that are written down."
     },
     {
-        "instruction": "Describe the emotions these lines evoke.",
-        "input": "\"The sun is setting in an orange haze, so beautiful yet so distant\"",
-        "output": "The lines evoke a sense of longing and sadness as the sun sets. The orange haze of the sunset implies a sense of endearment and nostalgia, an appreciation for a beautiful moment, yet at the same time creates a feeling of being distant from it, unable to completely take it in. The mellowness of the imagery encourages contemplation, a desire to sit and enjoy the view but also a sense of sadness that it will eventually be gone."
-    },
-    {
-        "instruction": "Compute the area of a rectangle with length 10cm and width 5cm.",
+        "instruction": "What are the ingredients that I need to make a banana smoothie?",
         "input": "",
-        "output": "The area of the rectangle is 50 cm2."
+        "output": "To make a banana smoothie, you will need bananas, a liquid like milk or juice, and optional flavorings like honey, peanut butter, or cinnamon. You may also want to add yogurt or ice cream to make it a bit more creamy."
     },
     {
-        "instruction": "Given a user query, compose a sentence that answers the query.",
-        "input": "Query: Where is the largest living organism in the world?",
-        "output": "The largest living organism in the world is a honey mushroom in Oregon that covers 3.4 square miles."
-    },
-    {
-        "instruction": "Create a 10-step guide on how to start a business.",
+        "instruction": "Create a program to automate data entry",
         "input": "",
-        "output": "Step 1: Define your business idea: Before you can start a business, you first need to come up with a business concept that you are passionate about. \n\nStep 2: Make an action plan: Create a plan of what you want to do, how you are going to do it and how you plan to make a profit. \n\nStep 3: Research the market: Research the needs of potential customers to make sure that the product or service you are offering is in demand. \n\nStep 4: Draft a business plan: Draft a business plan that covers the details of your business goals and a timeline of when you expect to achieve them.\n\nStep 5: Select a business entity: Decide which legal business structure is right for your business.\n\nStep 6: Register a business name: Choose a unique business name that will make your business stand out from the competition. \n\nStep 7: Obtain necessary licenses and permits: Read the requirements in your state and apply for the necessary permits.\n\nStep 8: Determine your financing needs: Figure out how much money you need to start your business and decide if it is better to look for funding through loans or investors.\n\nStep 9: Start to build a team: Create a team of reliable employees who can help you to grow your business.\n\nStep 10: Market your business: Create an effective marketing plan to reach potential customers, and don’t forget to track and analyze the success of your marketing strategies. \n// end of output //"
+        "output": "A program to automate data entry can be created using different programming languages such as Python, C++, or Java. The program would require accessing the database to collect and store data, as well as writing scripts to structure the data into fields and categories. The program could also include automated processes such as email notifications and automated backups, in order to streamline the process."
     },
     {
-        "instruction": "Detect if this sentence contains any incomplete thoughts and provide a corrected version.",
-        "input": "He was worried about passing the test but smiled.",
-        "output": "He was worried about passing the test, but he still smiled."
-    },
-    {
-        "instruction": "Explain what \"object-oriented programming\" means in one sentence.",
+        "instruction": "Modify this sentence by adding a description: \"The dog barked\"",
         "input": "",
-        "output": "Object-oriented programming is a programming paradigm based on the concept of objects, which contain data and methods that can interact with each other."
+        "output": "The small, white dog barked loudly."
     },
     {
-        "instruction": "There is a regional holiday next week, create a marketing message to target that region.",
+        "instruction": "Name a natural process which occurs in food preservation.",
         "input": "",
-        "output": "Visit us next week to celebrate the local holiday spirit! From shopping to sight-seeing there’s something for everyone! #BuyLocal #SupportLocal"
+        "output": "A natural process which occurs in food preservation is fermentation."
     },
     {
-        "instruction": "Describe the structure of a three paragraph essay.",
+        "instruction": "Calculate the surface area and volume of a given rectangular prism.",
+        "input": "Length = 10 cm, Width = 5 cm, Height = 3 cm",
+        "output": "The surface area of the rectangular prism is 170 cm2, and the volume is 150 cm3."
+    },
+    {
+        "instruction": "How many miles are there in 10 kilometers?",
         "input": "",
-        "output": "A three paragraph essay usually consists of an introductory paragraph, a body paragraph, and a concluding paragraph. \nThe introductory paragraph introduces the topic and provides a brief overview of the main points discussed in the essay. \n The body paragraph is the main portion of the essay, and usually consists of several paragraphs providing evidence and arguments to support the main point.\nThe concluding paragraph draws together the evidence presented in the body and restates the main points of the essay. It should also provide a call to action or pose a question to the reader."
+        "output": "There are 6.21 miles in 10 kilometers."
     },
     {
-        "instruction": "Analyze the problem presented in the following statement:",
-        "input": "Poor patient outcomes stem from improper medical care",
-        "output": "The statement suggests that inadequate medical care is the cause of poor patient outcomes. This could be due to an inadequate number of medical professionals, lack of access to treatment, inadequate training of medical professionals, or lack of funding for medical services. The root cause of this problem must be identified in order to decrease the number of poor patient outcomes. Potential solutions could include increased regulation of medical care, increased funding for medical services, or improved training for medical professionals. Ultimately, the goal would be to increase the quality of medical care to improve patient outcomes."
-    },
-    {
-        "instruction": "Change the font style and size of the text in this document.",
-        "input": "<p style=\"font-family: Arial; font-size: 12px;\">This is a test document.</p>",
-        "output": "<p style=\"font-family: Times New Roman; font-size: 24px;\">This is a test document.</p>"
-    },
-    {
-        "instruction": "Compose a questions which requires a yes or no answer.",
+        "instruction": "Describe how natural language processing is used in healthcare.",
         "input": "",
-        "output": "Do you think artificial intelligence can be used to improve healthcare?"
+        "output": "Natural language processing (NLP) is used in healthcare to process and analyze large amounts of unstructured textual data, such as medical records and patient notes. NLP technologies can be used to extract important information from this data, such as patient demographics, diagnoses, treatments, and medications. Additionally, NLP can be used for tasks such as sentiment analysis of written patient reviews, automatic summarization of medical reports, and generation of diagnostic reports and treatment plans. NLP has enabled healthcare practitioners to better understand and respond to patient needs, and to improve the accuracy, efficiency, and effectiveness of medical practice."
     },
     {
-        "instruction": "Create an algorithm that calculates the factorial of a given number.",
-        "input": "N/A",
-        "output": "def factorial(n): \n    # Base Case \n    if n == 0: \n        return 1\n  \n    # Recursive case \n    return n * factorial(n-1)"
+        "instruction": "Name an important figure in the history of computing.",
+        "input": "",
+        "output": "Alan Turing"
+    },
+    {
+        "instruction": "Eliminate the double negative in the following sentence",
+        "input": "I can't not go",
+        "output": "I must go."
+    },
+    {
+        "instruction": "Summarize the postcolonial theory.",
+        "input": "",
+        "output": "Postcolonial theory is an academic discipline that examines the cultural, political, and socio-economic effects of colonization and imperialism on subject societies, with a focus on challenging the traditional views of the West, particularly in regards to power structures and hierarchies. Postcolonial theory seeks to highlight the power imbalances and exploitation perpetrated against subject societies during and after colonization, while examining the implications of the ongoing legacy of colonialism."
+    },
+    {
+        "instruction": "Find 5 interesting facts about the pyramids of Giza.",
+        "input": "",
+        "output": "1. The Pyramids of Giza are the oldest and only remaining ancient world wonders. \n2. The Great Pyramid of Giza is the largest of the three pyramids at the Giza Necropolis and is estimated to have taken approximately 20 years to construct.\n3. The Pyramids of Giza are the only remaining wonder of the Seven Wonders of the Ancient World.\n4. The Pyramids of Giza are made of limestone and granite.\n5. The Pyramids of Giza have been listed as a UNESCO World Heritage Site since 1979."
+    },
+    {
+        "instruction": "What is a photo-sharing app?",
+        "input": "",
+        "output": "A photo-sharing app is a software application that allows users to share and upload digital photos online with other users. It usually includes features such as comment and like functions, filters, and editing capabilities. Popular examples include Instagram, Flickr, and Snapchat."
     }
 ]

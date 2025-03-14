@@ -11,7 +11,7 @@ with open(input_file, 'r', encoding='utf-8') as f:
 subset_size = 1000
 subset = random.sample(data, subset_size)
 
-test_ratio = 0.1
+test_ratio = 0.05
 test_size = int(subset_size * test_ratio)
 train_size = subset_size - test_size
 
